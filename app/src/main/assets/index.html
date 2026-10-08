@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#242724">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>金绪 · 国内黄金观察</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="instrument.css">
+  <script defer src="lexicon.js"></script>
+  <script defer src="core.js"></script>
+  <script defer src="forecast.js"></script>
+  <script defer src="journal.js"></script>
+  <script defer src="instrument.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand"><div><h1>金绪</h1><p>黄金研究仪表</p></div><span class="instrument-tag">AU / OBSERVATORY</span></div>
+      <button class="icon-button" id="refresh" aria-label="刷新全部数据"><svg viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5M5 8a8 8 0 0 1 13-3l2 3M19 16a8 8 0 0 1-13 3l-2-3"/></svg></button>
+    </header>
+    <main>
+      <section id="page-market" class="page active" aria-label="行情">
+        <div class="intro"><p class="eyebrow">国内黄金观察</p><div class="heading-row"><h2>看清金价，也看情绪。</h2><span class="local-tag"><i></i> 本地分析</span></div></div>
+        <div id="market-warning" class="notice hidden" role="status"></div>
+        <article class="quote-card">
+          <div class="card-top"><span class="instrument"><span class="gold-chip">Au</span> 黄金 Au99.99</span><span class="badge" id="quote-status">等待数据</span></div>
+          <div class="price-line"><strong id="price">—</strong><span>元 / 克</span></div>
+          <div class="change-line"><span id="change" class="muted">尚无行情</span><span id="change-caption">较前一交易日收盘</span></div>
+          <div class="quote-grid"><div><span id="high-label">日线最高</span><b id="high">—</b></div><div><span id="low-label">日线最低</span><b id="low">—</b></div><div><span>前收</span><b id="previous">—</b></div></div>
+          <div class="source-line"><span>上海黄金交易所</span><span id="quote-time">数据时间 —</span></div>
+        </article>
+        <article class="card ruler-card">
+          <div class="card-title"><h3>价格标尺</h3><span class="eyebrow">PRICE ENVELOPE</span></div>
+          <p id="ruler-anchor" class="muted small">等待数据</p>
+          <div class="ruler-wrap"><canvas id="price-ruler" role="img" aria-label="等待有效价格，价格标尺暂不可用"></canvas><span id="ruler-empty">等待有效价格</span></div>
+          <div class="ruler-readout"><strong id="ruler-range">—</strong><span id="ruler-status">等待估计</span></div>
+          <div class="instrument-readings"><div><span>近期波动 / ATR14</span><strong id="ruler-atr">—</strong></div><div><span>历史全日覆盖</span><strong id="ruler-coverage">—</strong></div></div>
+          <p id="ruler-note" class="footnote">标尺随价格自动缩放；区间估计不是买卖点。</p>
+        </article>
+        <article class="card timeline-card"><div class="card-title"><h3>消息与价格</h3><span class="eyebrow">EVENT LOG</span></div><div id="market-timeline"></div><button class="text-button timeline-action" data-go="analysis">查看研究与验证记录 <span>↗</span></button></article>
+        <article class="card chart-card">
+          <div class="card-title"><h3>价格走势</h3><div class="segmented" id="chart-tabs"><button data-chart="day">分时</button><button class="selected" data-chart="30">30日</button><button data-chart="90">90日</button></div></div>
+          <div class="chart-wrap"><canvas id="price-chart" aria-label="黄金价格走势图"></canvas><div id="chart-empty" class="chart-empty">联网后显示真实行情</div></div>
+          <div class="chart-footer"><span id="chart-start">—</span><span id="chart-note">日线收盘 · 元/克</span><span id="chart-end">—</span></div>
+        </article>
+        <article class="card sentiment-card">
+          <div class="card-title"><h3>新闻情绪</h3><button class="text-button" data-go="news">查看依据 <span>↗</span></button></div>
+          <div class="sentiment-overview"><div><p id="sentiment-label">等待新闻</p><span id="sentiment-sub">近72小时 · 标题措辞分析</span></div><strong id="sentiment-score">—</strong></div>
+          <div class="sentiment-track"><i id="sentiment-marker"></i></div><div class="track-labels"><span>偏空 −100</span><span>中性 0</span><span>偏多 +100</span></div>
+          <div class="counts"><span><i class="dot up-bg"></i>偏多 <b id="news-up">0</b></span><span><i class="dot down-bg"></i>偏空 <b id="news-down">0</b></span><span><i class="dot neutral-bg"></i>其他 <b id="news-neutral">0</b></span></div>
+          <p class="footnote">分数描述新闻措辞，不是上涨概率。样本少时不形成方向结论。</p>
+        </article>
+        <div class="section-title"><h3>市场脉络</h3><button class="text-button" data-go="analysis">更多分析 ↗</button></div>
+        <div class="insight-grid"><article class="mini-card"><span>趋势状态</span><strong id="trend-title">数据不足</strong><p id="trend-detail">等待历史价格</p></article><article class="mini-card"><span>近5日变化</span><strong id="return5">—</strong><p>最近5个交易日收盘变化</p></article></div>
+        <p class="page-foot">自动检查 <span id="refresh-desc">每60秒</span> · <span id="last-check">尚未获取</span><br>公开行情可能延时；休市期间保留最近交易日数据。</p>
+      </section>
+      <section id="page-news" class="page" aria-label="新闻">
+        <div class="intro"><p class="eyebrow">NEWS & CONTEXT</p><h2>事件与资讯</h2><p class="intro-note">近七日黄金与宏观资讯，点击标题查看原文。</p></div>
+        <div class="filter-bar" id="news-filters"><button class="selected" data-filter="all">全部</button><button data-filter="up">偏多</button><button data-filter="down">偏空</button><button data-filter="neutral">其他</button></div>
+        <div class="list-meta"><span id="news-count">0 条资讯</span><span id="news-fetch">等待更新</span></div>
+        <div id="news-warning" class="notice hidden"></div>
+        <div id="news-list" class="news-list"></div>
+        <p class="page-foot">仅分析标题，不代表已理解全文。宏观影响和否定句仍可能误判。</p>
+      </section>
+      <section id="page-analysis" class="page" aria-label="分析">
+        <div class="intro"><p class="eyebrow">ON-DEVICE ANALYSIS</p><h2>研究与验证</h2><p class="intro-note">手机本地计算 · 无需模型账号</p></div>
+        <article class="card" id="short-term-card">
+          <div class="card-title"><h3>下一交易日范围估计</h3><span class="badge">实验功能</span></div>
+          <p id="forecast-target" class="summary">等待历史数据</p>
+          <div class="forecast-range"><strong id="forecast-range">—</strong><span>元 / 克 · Au99.99</span></div>
+          <p id="forecast-warning" class="notice">正在检查有效样本。</p>
+          <p id="forecast-alignment" class="summary"></p>
+          <div id="forecast-metrics" class="technical-grid"></div>
+          <p id="forecast-validation" class="summary"></p>
+          <p id="forecast-baseline" class="footnote"></p>
+          <details class="forecast-details"><summary>如何理解这个区间</summary><p class="footnote">估计该基准日之后一个交易日的全日高低范围，不是收盘目标价。基于近期波动和过去120日偏离幅度，中心为基准收盘；均线只描述历史状态。历史覆盖率不是明日成功概率，范围之外仍可能成交。区间越宽，越容易覆盖。</p><p class="footnote">当日日线仅在北京时间16:00后重新获取成功才纳入；否则使用此前日线，目标时段可能已开始。没有交易所日历时不猜具体开市日期。无新日线时保持原估计。短线交易成本、滑点及新闻冲击未建模。</p></details>
+        </article>
+        <article class="card"><h3>数据质量与前瞻验证</h3><p id="quality-summary" class="summary"></p><p id="quality-detail" class="footnote"></p><p id="journal-summary" class="summary"></p><div id="prediction-list"></div><p id="capture-summary" class="footnote"></p><button id="export-journal" class="secondary-button">导出预测与资讯档案</button><p class="footnote">同一基准日首次留档后不重写。仅当日16:00—19:45提前留档参与前瞻统计；补记单独保留。无完整交易日历，结果对应下一条有效完成日线。最多保留200份预测、500条资讯；请定期导出。</p></article>
+        <article class="card"><h3>消息事件观察</h3><p id="event-risk" class="summary"></p><div id="event-list"></div><p class="footnote">按标题关键词标记事件候选，尚未验证事实或因果。同日同标题合并，不同标题仍可能来自同一事件。当前仅应用内提示。</p></article>
+        <article class="card"><div class="card-title"><h3>历史技术指标</h3><span id="analysis-date" class="small muted">—</span></div><div id="technical-grid" class="technical-grid"></div><p id="technical-summary" class="summary">取得历史行情后，自动计算均线和动量。</p><p class="footnote">指标基于日线收盘，不是盘中实时指标或收益预测。</p></article>
+        <article class="card"><div class="card-title"><h3>情绪依据</h3><span class="badge">近72小时</span></div><div id="evidence"></div><p class="footnote">原项目词典已修复冲突记录，并补充否定词及部分美元、利率语境规则。</p></article>
+        <article class="card"><div class="card-title"><h3>试着分析一条标题</h3><span class="badge">离线可用</span></div><label for="manual-title" class="small muted">输入黄金相关新闻标题</label><textarea id="manual-title" maxlength="500" placeholder="例如：美元回落，黄金价格上涨"></textarea><button class="primary-button" id="analyze-title">分析标题</button><div id="manual-result" class="manual-result hidden" aria-live="polite"></div></article>
+      </section>
+      <section id="page-settings" class="page" aria-label="设置">
+        <div class="intro"><p class="eyebrow">YOUR PRIVATE WORKSPACE</p><h2>仪表设置</h2><p class="intro-note">金绪 1.3.0 · Android 本地版</p></div>
+        <article class="card"><h3>刷新设置</h3><label class="setting-row" for="interval"><span>打开应用时检查行情</span><select id="interval"><option value="30">每30秒</option><option value="60" selected>每60秒</option><option value="120">每2分钟</option><option value="300">每5分钟</option><option value="0">仅手动</option></select></label><p class="footnote">新闻每5分钟、历史行情每小时检查一次。点击右上角可刷新全部数据。锁屏或切到后台后暂停；回到应用自动检查。</p></article>
+        <article class="card"><h3>数据源状态</h3><div id="source-status"></div><p class="footnote">免费公开数据无需注册，但不承诺持续可用或秒级实时。备用资讯仍来自新浪，不是独立供应商。</p></article>
+        <article class="card"><h3>手机本地记录</h3><div class="setting-row"><span>已保存行情记录</span><b id="record-count">0 条</b></div><button class="secondary-button" id="export">导出 CSV 记录</button><button class="text-button danger" id="clear">清除本地数据</button><p class="footnote">数据仅保存在本机，最多保存2000条行情观察。卸载应用会删除记录；可先导出留存。</p></article>
+        <article class="card about"><h3>关于分析</h3><p>基于 GoldSentAnalysis 的黄金情绪研究思路和169条原始词典记录改造。新版采用可解释的本地规则，不调用云端大模型。</p><p>国内报价选用上金所 Au99.99，不等同于银行积存金买卖价或金店零售价。旧版存在问题的交易回测未作为收益展示使用。短线均线排列参考 online0001 的 short-term-stock-picker（MIT，2026），许可随安装包保留。</p><p>本应用提供数据观察和研究参考，不提供自动交易或收益承诺。</p></article>
+      </section>
+    </main>
+    <nav class="bottom-nav" aria-label="主导航">
+      <button class="selected" data-page="market"><svg viewBox="0 0 24 24"><path d="M3 17l5-6 4 3 8-10M16 4h4v4M3 21h18"/></svg><span>行情</span></button>
+      <button data-page="news"><svg viewBox="0 0 24 24"><path d="M5 3h14v18H5zM8 7h8M8 11h8M8 15h4"/></svg><span>资讯</span></button>
+      <button data-page="analysis"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H1"/></svg><span>分析</span></button>
+      <button data-page="settings"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="16" cy="17" r="3"/></svg><span>设置</span></button>
+    </nav>
+  </div>
+  <div id="toast" class="toast hidden" role="status"></div>
+  <dialog id="clear-dialog"><h3>清除本地数据？</h3><p>将移除缓存新闻、历史行情、观察记录及预测与资讯档案。清除前可以先导出记录。</p><div class="dialog-actions"><button id="cancel-clear" class="secondary-button">取消</button><button id="confirm-clear" class="primary-button">清除</button></div></dialog>
+</body>
+</html>

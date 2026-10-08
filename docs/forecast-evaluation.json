@@ -1,0 +1,5107 @@
+{
+  "evaluatedAt": "2026-10-06T11:30:03.919Z",
+  "inputSha256": "7a134f1cb574e4b229c3ca5ad28d0df3252893e6fe325e8fc61dc85c79aad8e1",
+  "method": "ATR14 + prior 120 excursion/ATR 90th empirical percentile; centered on previous close",
+  "samples": 800,
+  "baseDate": "2026-09-30",
+  "available": true,
+  "quality": "实验性区间",
+  "prediction": {
+    "baseDate": "2026-09-30",
+    "center": 907.32,
+    "atr": 18.237573088481618,
+    "calibration": 120,
+    "lower": 882.75,
+    "upper": 931.89,
+    "baseline": {
+      "lower": 880.74,
+      "upper": 933.9
+    }
+  },
+  "alignment": {
+    "ma5": 913.15,
+    "ma10": 925.4470000000001,
+    "ma20": 936.0904999999999,
+    "label": "均线空头排列"
+  },
+  "validation": {
+    "model": {
+      "n": 252,
+      "from": "2025-09-16",
+      "to": "2026-09-30",
+      "coverage": 0.8928571428571429,
+      "closeCoverage": 0.9603174603174603,
+      "width": 0.08571553585356273,
+      "loss": 0.1301666123252754
+    },
+    "baseline": {
+      "n": 252,
+      "from": "2025-09-16",
+      "to": "2026-09-30",
+      "coverage": 0.8650793650793651,
+      "closeCoverage": 0.9285714285714286,
+      "width": 0.0753233191796572,
+      "loss": 0.1485728965943149
+    },
+    "recent": {
+      "n": 60,
+      "from": "2026-07-08",
+      "to": "2026-09-30",
+      "coverage": 0.8833333333333333,
+      "closeCoverage": 0.9666666666666667,
+      "width": 0.056837224831246244,
+      "loss": 0.07177772202384454
+    },
+    "final100": {
+      "n": 100,
+      "from": "2026-05-12",
+      "to": "2026-09-30",
+      "coverage": 0.91,
+      "closeCoverage": 0.97,
+      "width": 0.06284092553031292,
+      "loss": 0.0759278587750145
+    },
+    "records": [
+      {
+        "baseDate": "2025-09-15",
+        "targetDate": "2025-09-16",
+        "lower": 814.83,
+        "upper": 841.59,
+        "actualLow": 829,
+        "actualHigh": 839.99,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.03231064585069003,
+          "loss": 0.03231064585069003
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.044747105202786804,
+          "loss": 0.044747105202786804
+        }
+      },
+      {
+        "baseDate": "2025-09-16",
+        "targetDate": "2025-09-17",
+        "lower": 824.9,
+        "upper": 852.56,
+        "actualLow": 831.4,
+        "actualHigh": 841,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.03297843167646319,
+          "loss": 0.03297843167646319
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04475814624491787,
+          "loss": 0.04475814624491787
+        }
+      },
+      {
+        "baseDate": "2025-09-17",
+        "targetDate": "2025-09-18",
+        "lower": 817.87,
+        "upper": 845.83,
+        "actualLow": 822,
+        "actualHigh": 837,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.033611829055719224,
+          "loss": 0.033611829055719224
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.044743643685760684,
+          "loss": 0.044743643685760684
+        }
+      },
+      {
+        "baseDate": "2025-09-18",
+        "targetDate": "2025-09-19",
+        "lower": 809.82,
+        "upper": 839.36,
+        "actualLow": 823,
+        "actualHigh": 830,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.035823863980887424,
+          "loss": 0.035823863980887424
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04474951187863056,
+          "loss": 0.04474951187863056
+        }
+      },
+      {
+        "baseDate": "2025-09-19",
+        "targetDate": "2025-09-22",
+        "lower": 812.43,
+        "upper": 840.99,
+        "actualLow": 827,
+        "actualHigh": 845,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.034546576187538626,
+          "loss": 0.1315576199634695
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.044755718450242524,
+          "loss": 0.044755718450242524
+        }
+      },
+      {
+        "baseDate": "2025-09-22",
+        "targetDate": "2025-09-23",
+        "lower": 823.81,
+        "upper": 855.19,
+        "actualLow": 840.1,
+        "actualHigh": 850.88,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.03737939249553319,
+          "loss": 0.03737939249553319
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0447409172126265,
+          "loss": 0.0447409172126265
+        }
+      },
+      {
+        "baseDate": "2025-09-23",
+        "targetDate": "2025-09-24",
+        "lower": 834.73,
+        "upper": 866.57,
+        "actualLow": 848.75,
+        "actualHigh": 856.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.037430200434961536,
+          "loss": 0.037430200434961536
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04474225592194198,
+          "loss": 0.04474225592194198
+        }
+      },
+      {
+        "baseDate": "2025-09-24",
+        "targetDate": "2025-09-25",
+        "lower": 840.89,
+        "upper": 872.37,
+        "actualLow": 848,
+        "actualHigh": 857,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.03674865461167601,
+          "loss": 0.03674865461167601
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04475677947305128,
+          "loss": 0.04475677947305128
+        }
+      },
+      {
+        "baseDate": "2025-09-25",
+        "targetDate": "2025-09-26",
+        "lower": 836.34,
+        "upper": 867.14,
+        "actualLow": 847.6,
+        "actualHigh": 854.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.036161269871087365,
+          "loss": 0.036161269871087365
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04475544180148872,
+          "loss": 0.04475544180148872
+        }
+      },
+      {
+        "baseDate": "2025-09-26",
+        "targetDate": "2025-09-29",
+        "lower": 838.96,
+        "upper": 867.04,
+        "actualLow": 852.5,
+        "actualHigh": 864.99,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.03291910902696357,
+          "loss": 0.03291910902696357
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04438452520515815,
+          "loss": 0.04438452520515815
+        }
+      },
+      {
+        "baseDate": "2025-09-29",
+        "targetDate": "2025-09-30",
+        "lower": 848.51,
+        "upper": 877.29,
+        "actualLow": 861,
+        "actualHigh": 880,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.03335264804728239,
+          "loss": 0.09616409780971225
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.044385212655000526,
+          "loss": 0.044385212655000526
+        }
+      },
+      {
+        "baseDate": "2025-09-30",
+        "targetDate": "2025-10-09",
+        "lower": 855.23,
+        "upper": 888.49,
+        "actualLow": 902,
+        "actualHigh": 918.8,
+        "model": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.03814832656619181,
+          "loss": 0.7334434427545694
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.044387860436308636,
+          "loss": 0.677287637923518
+        }
+      },
+      {
+        "baseDate": "2025-10-09",
+        "targetDate": "2025-10-10",
+        "lower": 890.18,
+        "upper": 932.82,
+        "actualLow": 896.05,
+        "actualHigh": 917.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04678003291278124,
+          "loss": 0.04678003291278124
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04473944048272076,
+          "loss": 0.04473944048272076
+        }
+      },
+      {
+        "baseDate": "2025-10-10",
+        "targetDate": "2025-10-13",
+        "lower": 875.65,
+        "upper": 919.61,
+        "actualLow": 895,
+        "actualHigh": 927.9,
+        "model": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.0489734077515235,
+          "loss": 0.23368202934393828
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.04438354333077094,
+          "loss": 0.2749908091307113
+        }
+      },
+      {
+        "baseDate": "2025-10-13",
+        "targetDate": "2025-10-14",
+        "lower": 902.02,
+        "upper": 951.44,
+        "actualLow": 927,
+        "actualHigh": 957.8,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.05332729058085966,
+          "loss": 0.19058409677036253
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.04475953082343295,
+          "loss": 0.2676939345872029
+        }
+      },
+      {
+        "baseDate": "2025-10-14",
+        "targetDate": "2025-10-15",
+        "lower": 914.07,
+        "upper": 967.37,
+        "actualLow": 933.8,
+        "actualHigh": 960,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.056658729483799596,
+          "loss": 0.056658729483799596
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04481673611701672,
+          "loss": 0.04481673611701672
+        }
+      },
+      {
+        "baseDate": "2025-10-15",
+        "targetDate": "2025-10-16",
+        "lower": 931.18,
+        "upper": 986.9,
+        "actualLow": 955,
+        "actualHigh": 970,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.058099766433099796,
+          "loss": 0.058099766433099796
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04475308641975304,
+          "loss": 0.04475308641975304
+        }
+      },
+      {
+        "baseDate": "2025-10-16",
+        "targetDate": "2025-10-17",
+        "lower": 940.49,
+        "upper": 995.79,
+        "actualLow": 965,
+        "actualHigh": 1002,
+        "model": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.05711983803995285,
+          "loss": 0.18540706922552594
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.04474559464540246,
+          "loss": 0.2967752597764795
+        }
+      },
+      {
+        "baseDate": "2025-10-17",
+        "targetDate": "2025-10-20",
+        "lower": 965.7,
+        "upper": 1028.64,
+        "actualLow": 962,
+        "actualHigh": 999.99,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.06311862571076152,
+          "loss": 0.1373286400513463
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.044806803253206524,
+          "loss": 0.30213504216934
+        }
+      },
+      {
+        "baseDate": "2025-10-20",
+        "targetDate": "2025-10-21",
+        "lower": 939.26,
+        "upper": 1009.34,
+        "actualLow": 977,
+        "actualHigh": 999,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07192856409730067,
+          "loss": 0.07192856409730067
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.04483218721133116,
+          "loss": 0.10354100379759851
+        }
+      },
+      {
+        "baseDate": "2025-10-21",
+        "targetDate": "2025-10-22",
+        "lower": 952.52,
+        "upper": 1021.72,
+        "actualLow": 932,
+        "actualHigh": 976.8,
+        "model": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.07010292568279444,
+          "loss": 0.4858578490963608
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.0448375070913364,
+          "loss": 0.7132466164194831
+        }
+      },
+      {
+        "baseDate": "2025-10-22",
+        "targetDate": "2025-10-23",
+        "lower": 909.81,
+        "upper": 987.79,
+        "actualLow": 920,
+        "actualHigh": 946,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08218802698145028,
+          "loss": 0.08218802698145028
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.044835581787521166,
+          "loss": 0.20356239460370948
+        }
+      },
+      {
+        "baseDate": "2025-10-23",
+        "targetDate": "2025-10-24",
+        "lower": 901.42,
+        "upper": 981,
+        "actualLow": 934.3,
+        "actualHigh": 955,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08455073787996306,
+          "loss": 0.08455073787996306
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.046089608057712936,
+          "loss": 0.046089608057712936
+        }
+      },
+      {
+        "baseDate": "2025-10-24",
+        "targetDate": "2025-10-27",
+        "lower": 896.07,
+        "upper": 975.13,
+        "actualLow": 928,
+        "actualHigh": 953,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08450192389910212,
+          "loss": 0.08450192389910212
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.046088071825566485,
+          "loss": 0.046088071825566485
+        }
+      },
+      {
+        "baseDate": "2025-10-27",
+        "targetDate": "2025-10-28",
+        "lower": 890.97,
+        "upper": 970.61,
+        "actualLow": 896.52,
+        "actualHigh": 930.79,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08556172713501434,
+          "loss": 0.08556172713501434
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.04608988063902704,
+          "loss": 0.3215548082811386
+        }
+      },
+      {
+        "baseDate": "2025-10-28",
+        "targetDate": "2025-10-29",
+        "lower": 855.36,
+        "upper": 937.84,
+        "actualLow": 895,
+        "actualHigh": 913.7,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.091991969663172,
+          "loss": 0.091991969663172
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05072496096364044,
+          "loss": 0.05072496096364044
+        }
+      },
+      {
+        "baseDate": "2025-10-29",
+        "targetDate": "2025-10-30",
+        "lower": 872.31,
+        "upper": 953.57,
+        "actualLow": 894.01,
+        "actualHigh": 922,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08900913532105079,
+          "loss": 0.08900913532105079
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05071527154029845,
+          "loss": 0.05071527154029845
+        }
+      },
+      {
+        "baseDate": "2025-10-30",
+        "targetDate": "2025-10-31",
+        "lower": 865.68,
+        "upper": 948.1,
+        "actualLow": 909,
+        "actualHigh": 925,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.09088202538345343,
+          "loss": 0.09088202538345343
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0507227998985544,
+          "loss": 0.0507227998985544
+        }
+      },
+      {
+        "baseDate": "2025-10-31",
+        "targetDate": "2025-11-03",
+        "lower": 880.98,
+        "upper": 962.02,
+        "actualLow": 909,
+        "actualHigh": 925,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08794357026587082,
+          "loss": 0.08794357026587082
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05072164948453609,
+          "loss": 0.05072164948453609
+        }
+      },
+      {
+        "baseDate": "2025-11-03",
+        "targetDate": "2025-11-04",
+        "lower": 880.38,
+        "upper": 959.62,
+        "actualLow": 910.5,
+        "actualHigh": 925,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0861304347826087,
+          "loss": 0.0861304347826087
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.050717391304347915,
+          "loss": 0.050717391304347915
+        }
+      },
+      {
+        "baseDate": "2025-11-04",
+        "targetDate": "2025-11-05",
+        "lower": 877.89,
+        "upper": 955.09,
+        "actualLow": 903,
+        "actualHigh": 916.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08423441608746418,
+          "loss": 0.08423441608746418
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0507152287531779,
+          "loss": 0.0507152287531779
+        }
+      },
+      {
+        "baseDate": "2025-11-05",
+        "targetDate": "2025-11-06",
+        "lower": 874.13,
+        "upper": 945.87,
+        "actualLow": 910,
+        "actualHigh": 919.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07883516483516484,
+          "loss": 0.07883516483516484
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.046087912087912145,
+          "loss": 0.046087912087912145
+        }
+      },
+      {
+        "baseDate": "2025-11-06",
+        "targetDate": "2025-11-07",
+        "lower": 883.52,
+        "upper": 952.48,
+        "actualLow": 912,
+        "actualHigh": 924,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07511982570806104,
+          "loss": 0.07511982570806104
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04607843137254897,
+          "loss": 0.04607843137254897
+        }
+      },
+      {
+        "baseDate": "2025-11-07",
+        "targetDate": "2025-11-10",
+        "lower": 884.59,
+        "upper": 951.47,
+        "actualLow": 914,
+        "actualHigh": 935,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07285164972822239,
+          "loss": 0.07285164972822239
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04607692559066692,
+          "loss": 0.04607692559066692
+        }
+      },
+      {
+        "baseDate": "2025-11-10",
+        "targetDate": "2025-11-11",
+        "lower": 901.88,
+        "upper": 967.74,
+        "actualLow": 935,
+        "actualHigh": 950.99,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0704528192894813,
+          "loss": 0.0704528192894813
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04484333714872537,
+          "loss": 0.04484333714872537
+        }
+      },
+      {
+        "baseDate": "2025-11-11",
+        "targetDate": "2025-11-12",
+        "lower": 914.32,
+        "upper": 979.26,
+        "actualLow": 939,
+        "actualHigh": 949,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06858965557304147,
+          "loss": 0.06858965557304147
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04474064998574131,
+          "loss": 0.04474064998574131
+        }
+      },
+      {
+        "baseDate": "2025-11-12",
+        "targetDate": "2025-11-13",
+        "lower": 913.52,
+        "upper": 976.16,
+        "actualLow": 940.1,
+        "actualHigh": 960,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06629693916430293,
+          "loss": 0.06629693916430293
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04474831717539474,
+          "loss": 0.04474831717539474
+        }
+      },
+      {
+        "baseDate": "2025-11-13",
+        "targetDate": "2025-11-14",
+        "lower": 927.73,
+        "upper": 990.55,
+        "actualLow": 948,
+        "actualHigh": 968,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06549617365556638,
+          "loss": 0.06549617365556638
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04474842045999549,
+          "loss": 0.04474842045999549
+        }
+      },
+      {
+        "baseDate": "2025-11-14",
+        "targetDate": "2025-11-17",
+        "lower": 916.53,
+        "upper": 979.53,
+        "actualLow": 921,
+        "actualHigh": 943,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06645359324072023,
+          "loss": 0.06645359324072023
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.04426020273620037,
+          "loss": 0.17189329451599542
+        }
+      },
+      {
+        "baseDate": "2025-11-17",
+        "targetDate": "2025-11-18",
+        "lower": 899.01,
+        "upper": 963.83,
+        "actualLow": 916.04,
+        "actualHigh": 938,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06959266496317457,
+          "loss": 0.06959266496317457
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.044748878057159984,
+          "loss": 0.044748878057159984
+        }
+      },
+      {
+        "baseDate": "2025-11-18",
+        "targetDate": "2025-11-19",
+        "lower": 884.3,
+        "upper": 949.62,
+        "actualLow": 921.05,
+        "actualHigh": 937.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07123538649450363,
+          "loss": 0.07123538649450363
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.04475658698307446,
+          "loss": 0.05173617169778255
+        }
+      },
+      {
+        "baseDate": "2025-11-19",
+        "targetDate": "2025-11-20",
+        "lower": 902.56,
+        "upper": 968.1,
+        "actualLow": 927,
+        "actualHigh": 942.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07007152555782459,
+          "loss": 0.07007152555782459
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04483978916532127,
+          "loss": 0.04483978916532127
+        }
+      },
+      {
+        "baseDate": "2025-11-20",
+        "targetDate": "2025-11-21",
+        "lower": 897.71,
+        "upper": 962.19,
+        "actualLow": 918,
+        "actualHigh": 938,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06933706113231895,
+          "loss": 0.06933706113231895
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04484112049034887,
+          "loss": 0.04484112049034887
+        }
+      },
+      {
+        "baseDate": "2025-11-21",
+        "targetDate": "2025-11-24",
+        "lower": 892.17,
+        "upper": 956.71,
+        "actualLow": 923.8,
+        "actualHigh": 935,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06981523949634381,
+          "loss": 0.06981523949634381
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.044848773311410066,
+          "loss": 0.044848773311410066
+        }
+      },
+      {
+        "baseDate": "2025-11-24",
+        "targetDate": "2025-11-25",
+        "lower": 894.72,
+        "upper": 957.28,
+        "actualLow": 930,
+        "actualHigh": 945,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06755939524838007,
+          "loss": 0.06755939524838007
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.044838012958963266,
+          "loss": 0.044838012958963266
+        }
+      },
+      {
+        "baseDate": "2025-11-25",
+        "targetDate": "2025-11-26",
+        "lower": 910.28,
+        "upper": 972.8,
+        "actualLow": 935,
+        "actualHigh": 945.9,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06640185228455507,
+          "loss": 0.06640185228455507
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04484142999766343,
+          "loss": 0.04484142999766343
+        }
+      },
+      {
+        "baseDate": "2025-11-26",
+        "targetDate": "2025-11-27",
+        "lower": 910.86,
+        "upper": 971.46,
+        "actualLow": 940,
+        "actualHigh": 945.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06438862680096905,
+          "loss": 0.06438862680096905
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0447532831824557,
+          "loss": 0.0447532831824557
+        }
+      },
+      {
+        "baseDate": "2025-11-27",
+        "targetDate": "2025-11-28",
+        "lower": 915.16,
+        "upper": 972.8,
+        "actualLow": 942,
+        "actualHigh": 950.9,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.061060615691010386,
+          "loss": 0.061060615691010386
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04474671073539695,
+          "loss": 0.04474671073539695
+        }
+      },
+      {
+        "baseDate": "2025-11-28",
+        "targetDate": "2025-12-01",
+        "lower": 920.35,
+        "upper": 975.95,
+        "actualLow": 756.4,
+        "actualHigh": 962.2,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.05864051046775302,
+          "loss": 3.516954068449086
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.0447397563676633,
+          "loss": 3.642060855349894
+        }
+      },
+      {
+        "baseDate": "2025-12-01",
+        "targetDate": "2025-12-02",
+        "lower": 905.33,
+        "upper": 1011.59,
+        "actualLow": 951,
+        "actualHigh": 962,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.11086534649333304,
+          "loss": 0.11086534649333304
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.044842768607975314,
+          "loss": 0.044842768607975314
+        }
+      },
+      {
+        "baseDate": "2025-12-02",
+        "targetDate": "2025-12-03",
+        "lower": 904.18,
+        "upper": 1005.6,
+        "actualLow": 945,
+        "actualHigh": 957.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10621118662882643,
+          "loss": 0.10621118662882643
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04484286148142711,
+          "loss": 0.04484286148142711
+        }
+      },
+      {
+        "baseDate": "2025-12-03",
+        "targetDate": "2025-12-04",
+        "lower": 901.42,
+        "upper": 998.7,
+        "actualLow": 946,
+        "actualHigh": 958.88,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10239353304001862,
+          "loss": 0.10239353304001862
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04483927330905419,
+          "loss": 0.04483927330905419
+        }
+      },
+      {
+        "baseDate": "2025-12-04",
+        "targetDate": "2025-12-05",
+        "lower": 902.55,
+        "upper": 996.09,
+        "actualLow": 950,
+        "actualHigh": 957,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.09853368727088871,
+          "loss": 0.09853368727088871
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04474781949184669,
+          "loss": 0.04474781949184669
+        }
+      },
+      {
+        "baseDate": "2025-12-05",
+        "targetDate": "2025-12-08",
+        "lower": 912.11,
+        "upper": 1000.89,
+        "actualLow": 950.3,
+        "actualHigh": 961,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.09281756403554624,
+          "loss": 0.09281756403554624
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.044746471510716104,
+          "loss": 0.044746471510716104
+        }
+      },
+      {
+        "baseDate": "2025-12-08",
+        "targetDate": "2025-12-09",
+        "lower": 911.55,
+        "upper": 996.65,
+        "actualLow": 945,
+        "actualHigh": 954.3,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08919400482129758,
+          "loss": 0.08919400482129758
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04425112671627715,
+          "loss": 0.04425112671627715
+        }
+      },
+      {
+        "baseDate": "2025-12-09",
+        "targetDate": "2025-12-10",
+        "lower": 906.46,
+        "upper": 987.8,
+        "actualLow": 948.5,
+        "actualHigh": 955.9,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0858805021485962,
+          "loss": 0.0858805021485962
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04426002766251737,
+          "loss": 0.04426002766251737
+        }
+      },
+      {
+        "baseDate": "2025-12-10",
+        "targetDate": "2025-12-11",
+        "lower": 912.05,
+        "upper": 989.77,
+        "actualLow": 950,
+        "actualHigh": 962,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08173223543763346,
+          "loss": 0.08173223543763346
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04425234775110162,
+          "loss": 0.04425234775110162
+        }
+      },
+      {
+        "baseDate": "2025-12-11",
+        "targetDate": "2025-12-12",
+        "lower": 914.81,
+        "upper": 989.97,
+        "actualLow": 951.5,
+        "actualHigh": 965.9,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07891725028612237,
+          "loss": 0.07891725028612237
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04426757945799523,
+          "loss": 0.04426757945799523
+        }
+      },
+      {
+        "baseDate": "2025-12-12",
+        "targetDate": "2025-12-15",
+        "lower": 927.57,
+        "upper": 1000.93,
+        "actualLow": 960,
+        "actualHigh": 979,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07607985480943728,
+          "loss": 0.07607985480943728
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.044262380088151476,
+          "loss": 0.044262380088151476
+        }
+      },
+      {
+        "baseDate": "2025-12-15",
+        "targetDate": "2025-12-16",
+        "lower": 940.39,
+        "upper": 1013.25,
+        "actualLow": 963,
+        "actualHigh": 978.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07458897237976292,
+          "loss": 0.07458897237976292
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.044266087917937805,
+          "loss": 0.044266087917937805
+        }
+      },
+      {
+        "baseDate": "2025-12-16",
+        "targetDate": "2025-12-17",
+        "lower": 929.13,
+        "upper": 1000.65,
+        "actualLow": 964,
+        "actualHigh": 977.94,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07412243882722382,
+          "loss": 0.07412243882722382
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04425374913202546,
+          "loss": 0.04425374913202546
+        }
+      },
+      {
+        "baseDate": "2025-12-17",
+        "targetDate": "2025-12-18",
+        "lower": 937.77,
+        "upper": 1007.65,
+        "actualLow": 971.5,
+        "actualHigh": 977.99,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07184052800937586,
+          "loss": 0.07184052800937586
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04426807578826172,
+          "loss": 0.04426807578826172
+        }
+      },
+      {
+        "baseDate": "2025-12-18",
+        "targetDate": "2025-12-19",
+        "lower": 942.3,
+        "upper": 1008.8,
+        "actualLow": 970,
+        "actualHigh": 980,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06816667520885654,
+          "loss": 0.06816667520885654
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0442622110604274,
+          "loss": 0.0442622110604274
+        }
+      },
+      {
+        "baseDate": "2025-12-19",
+        "targetDate": "2025-12-22",
+        "lower": 943.39,
+        "upper": 1007.63,
+        "actualLow": 974,
+        "actualHigh": 995,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06585273344199445,
+          "loss": 0.06585273344199445
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04426402599665823,
+          "loss": 0.04426402599665823
+        }
+      },
+      {
+        "baseDate": "2025-12-22",
+        "targetDate": "2025-12-23",
+        "lower": 960.35,
+        "upper": 1025.23,
+        "actualLow": 985,
+        "actualHigh": 1014,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06535118202238137,
+          "loss": 0.06535118202238137
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04425910816990496,
+          "loss": 0.04425910816990496
+        }
+      },
+      {
+        "baseDate": "2025-12-23",
+        "targetDate": "2025-12-24",
+        "lower": 973.13,
+        "upper": 1040.61,
+        "actualLow": 995,
+        "actualHigh": 1017.2,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06701957551620359,
+          "loss": 0.06701957551620359
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.044255961544191466,
+          "loss": 0.044255961544191466
+        }
+      },
+      {
+        "baseDate": "2025-12-24",
+        "targetDate": "2025-12-25",
+        "lower": 973.6,
+        "upper": 1041.78,
+        "actualLow": 999.7,
+        "actualHigh": 1009.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0676596969306036,
+          "loss": 0.0676596969306036
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0442596433426947,
+          "loss": 0.0442596433426947
+        }
+      },
+      {
+        "baseDate": "2025-12-25",
+        "targetDate": "2025-12-26",
+        "lower": 970.1,
+        "upper": 1035.86,
+        "actualLow": 1003.51,
+        "actualHigh": 1017,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06556461744002859,
+          "loss": 0.06556461744002859
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04424814054118737,
+          "loss": 0.04424814054118737
+        }
+      },
+      {
+        "baseDate": "2025-12-26",
+        "targetDate": "2025-12-29",
+        "lower": 974.72,
+        "upper": 1039.28,
+        "actualLow": 1000.01,
+        "actualHigh": 1015,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06411122144985099,
+          "loss": 0.06411122144985099
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04425024826216479,
+          "loss": 0.04425024826216479
+        }
+      },
+      {
+        "baseDate": "2025-12-29",
+        "targetDate": "2025-12-30",
+        "lower": 972.16,
+        "upper": 1035.84,
+        "actualLow": 970,
+        "actualHigh": 1003.99,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.06342629482071709,
+          "loss": 0.10645418326693158
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.04426294820717137,
+          "loss": 0.2789243027888441
+        }
+      },
+      {
+        "baseDate": "2025-12-30",
+        "targetDate": "2025-12-31",
+        "lower": 947.02,
+        "upper": 1016.8,
+        "actualLow": 960,
+        "actualHigh": 990,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07106557627481132,
+          "loss": 0.07106557627481132
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04546241508895926,
+          "loss": 0.04546241508895926
+        }
+      },
+      {
+        "baseDate": "2025-12-31",
+        "targetDate": "2026-01-05",
+        "lower": 938.65,
+        "upper": 1011.15,
+        "actualLow": 987.01,
+        "actualHigh": 996,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07436660170273875,
+          "loss": 0.07436660170273875
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.045461072930556914,
+          "loss": 0.045461072930556914
+        }
+      },
+      {
+        "baseDate": "2026-01-05",
+        "targetDate": "2026-01-06",
+        "lower": 957.2,
+        "upper": 1029.94,
+        "actualLow": 990,
+        "actualHigh": 1008,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07321074509093471,
+          "loss": 0.07321074509093471
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04547238745131188,
+          "loss": 0.04547238745131188
+        }
+      },
+      {
+        "baseDate": "2026-01-06",
+        "targetDate": "2026-01-07",
+        "lower": 966.92,
+        "upper": 1039.1,
+        "actualLow": 996.5,
+        "actualHigh": 1007.3,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07196339019551146,
+          "loss": 0.07196339019551146
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04546315590073868,
+          "loss": 0.04546315590073868
+        }
+      },
+      {
+        "baseDate": "2026-01-07",
+        "targetDate": "2026-01-08",
+        "lower": 964.78,
+        "upper": 1034.58,
+        "actualLow": 992.01,
+        "actualHigh": 1005,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0698223431498079,
+          "loss": 0.0698223431498079
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0454545454545454,
+          "loss": 0.0454545454545454
+        }
+      },
+      {
+        "baseDate": "2026-01-08",
+        "targetDate": "2026-01-09",
+        "lower": 962.13,
+        "upper": 1030.29,
+        "actualLow": 992.05,
+        "actualHigh": 1004.88,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06841930918179899,
+          "loss": 0.06841930918179899
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04547234016924149,
+          "loss": 0.04547234016924149
+        }
+      },
+      {
+        "baseDate": "2026-01-09",
+        "targetDate": "2026-01-12",
+        "lower": 970.2,
+        "upper": 1036.78,
+        "actualLow": 1001.49,
+        "actualHigh": 1029,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06634844393068184,
+          "loss": 0.06634844393068184
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.04546133992366641,
+          "loss": 0.09927353536158896
+        }
+      },
+      {
+        "baseDate": "2026-01-12",
+        "targetDate": "2026-01-13",
+        "lower": 989.26,
+        "upper": 1058.16,
+        "actualLow": 1022.5,
+        "actualHigh": 1030.01,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06730421701458429,
+          "loss": 0.06730421701458429
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05071748835119328,
+          "loss": 0.05071748835119328
+        }
+      },
+      {
+        "baseDate": "2026-01-13",
+        "targetDate": "2026-01-14",
+        "lower": 992.06,
+        "upper": 1057.98,
+        "actualLow": 1024,
+        "actualHigh": 1038.58,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06431094027433618,
+          "loss": 0.06431094027433618
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05071120563501202,
+          "loss": 0.05071120563501202
+        }
+      },
+      {
+        "baseDate": "2026-01-14",
+        "targetDate": "2026-01-15",
+        "lower": 1005.52,
+        "upper": 1070.48,
+        "actualLow": 1027.5,
+        "actualHigh": 1040,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06258188824662816,
+          "loss": 0.06258188824662816
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05071290944123313,
+          "loss": 0.05071290944123313
+        }
+      },
+      {
+        "baseDate": "2026-01-15",
+        "targetDate": "2026-01-16",
+        "lower": 1002.51,
+        "upper": 1066.03,
+        "actualLow": 1028,
+        "actualHigh": 1036,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06141529774623646,
+          "loss": 0.06141529774623646
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05072176510969093,
+          "loss": 0.05072176510969093
+        }
+      },
+      {
+        "baseDate": "2026-01-16",
+        "targetDate": "2026-01-19",
+        "lower": 1002.11,
+        "upper": 1063.15,
+        "actualLow": 1020,
+        "actualHigh": 1049.99,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.059111201495211325,
+          "loss": 0.059111201495211325
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05070548018167194,
+          "loss": 0.05070548018167194
+        }
+      },
+      {
+        "baseDate": "2026-01-19",
+        "targetDate": "2026-01-20",
+        "lower": 1013.52,
+        "upper": 1077.92,
+        "actualLow": 1044.5,
+        "actualHigh": 1056.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06158436292697863,
+          "loss": 0.06158436292697863
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05072103431128788,
+          "loss": 0.05072103431128788
+        }
+      },
+      {
+        "baseDate": "2026-01-20",
+        "targetDate": "2026-01-21",
+        "lower": 1024.95,
+        "upper": 1087.91,
+        "actualLow": 1055,
+        "actualHigh": 1099.99,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.05959694442603867,
+          "loss": 0.288291699402704
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.05071798415417957,
+          "loss": 0.3682023418494359
+        }
+      },
+      {
+        "baseDate": "2026-01-21",
+        "targetDate": "2026-01-22",
+        "lower": 1052.73,
+        "upper": 1122.89,
+        "actualLow": 1066.01,
+        "actualHigh": 1098,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0644965573032056,
+          "loss": 0.0644965573032056
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.050854469070885484,
+          "loss": 0.050854469070885484
+        }
+      },
+      {
+        "baseDate": "2026-01-22",
+        "targetDate": "2026-01-23",
+        "lower": 1047,
+        "upper": 1120.38,
+        "actualLow": 1081,
+        "actualHigh": 1114,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06771309138222195,
+          "loss": 0.06771309138222195
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.050844798789321584,
+          "loss": 0.10178187489042044
+        }
+      },
+      {
+        "baseDate": "2026-01-23",
+        "targetDate": "2026-01-26",
+        "lower": 1071.98,
+        "upper": 1148.62,
+        "actualLow": 1105,
+        "actualHigh": 1147,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06902638926416273,
+          "loss": 0.06902638926416273
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.05594884265513816,
+          "loss": 0.1575430063946698
+        }
+      },
+      {
+        "baseDate": "2026-01-26",
+        "targetDate": "2026-01-27",
+        "lower": 1103.46,
+        "upper": 1185.44,
+        "actualLow": 1126,
+        "actualHigh": 1150,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07163266197736906,
+          "loss": 0.07163266197736906
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05704049980339899,
+          "loss": 0.05704049980339899
+        }
+      },
+      {
+        "baseDate": "2026-01-27",
+        "targetDate": "2026-01-28",
+        "lower": 1102.98,
+        "upper": 1185.3,
+        "actualLow": 1030,
+        "actualHigh": 1185.9,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.07194923698148822,
+          "loss": 1.358155470484384
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.05703847431258411,
+          "loss": 1.6414599611935619
+        }
+      },
+      {
+        "baseDate": "2026-01-28",
+        "targetDate": "2026-01-29",
+        "lower": 1124.76,
+        "upper": 1245.16,
+        "actualLow": 1178,
+        "actualHigh": 1256,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.10160680529300574,
+          "loss": 0.28456656764785176
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.0607109100729139,
+          "loss": 0.6526296246286784
+        }
+      },
+      {
+        "baseDate": "2026-01-29",
+        "targetDate": "2026-01-30",
+        "lower": 1176.29,
+        "upper": 1309.75,
+        "actualLow": 1148.01,
+        "actualHigh": 1248.5,
+        "model": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.10736754034528811,
+          "loss": 0.562388376695467
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.06611317597464227,
+          "loss": 0.9336776560312797
+        }
+      },
+      {
+        "baseDate": "2026-01-30",
+        "targetDate": "2026-02-02",
+        "lower": 1085.55,
+        "upper": 1242.35,
+        "actualLow": 998,
+        "actualHigh": 1157,
+        "model": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.13471369045062068,
+          "loss": 1.639073843378151
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.06706473645775157,
+          "loss": 2.2479144293139752
+        }
+      },
+      {
+        "baseDate": "2026-02-02",
+        "targetDate": "2026-02-03",
+        "lower": 929.56,
+        "upper": 1130.44,
+        "actualLow": 1040,
+        "actualHigh": 1100,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.19502912621359234,
+          "loss": 0.19502912621359234
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.06745631067961166,
+          "loss": 0.7521165048543688
+        }
+      },
+      {
+        "baseDate": "2026-02-03",
+        "targetDate": "2026-02-04",
+        "lower": 994.42,
+        "upper": 1201.36,
+        "actualLow": 1090,
+        "actualHigh": 1198.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.18848882857116825,
+          "loss": 0.18848882857116825
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.06772991829782574,
+          "loss": 1.2232190838790782
+        }
+      },
+      {
+        "baseDate": "2026-02-04",
+        "targetDate": "2026-02-05",
+        "lower": 1028.4,
+        "upper": 1252.2,
+        "actualLow": 1078,
+        "actualHigh": 1140,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.1962641410155222,
+          "loss": 0.1962641410155222
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.06996404454967989,
+          "loss": 0.4630185039024832
+        }
+      },
+      {
+        "baseDate": "2026-02-05",
+        "targetDate": "2026-02-06",
+        "lower": 992.48,
+        "upper": 1218.46,
+        "actualLow": 1049.01,
+        "actualHigh": 1102.95,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.20441983952526982,
+          "loss": 0.20441983952526982
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.07054013225144058,
+          "loss": 0.38660479253168384
+        }
+      },
+      {
+        "baseDate": "2026-02-06",
+        "targetDate": "2026-02-09",
+        "lower": 980.7,
+        "upper": 1207,
+        "actualLow": 1050,
+        "actualHigh": 1132,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.20688394203958493,
+          "loss": 0.20688394203958493
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.07364812360012815,
+          "loss": 0.13892215568862176
+        }
+      },
+      {
+        "baseDate": "2026-02-09",
+        "targetDate": "2026-02-10",
+        "lower": 999,
+        "upper": 1233.04,
+        "actualLow": 1115,
+        "actualHigh": 1130.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.20970950341391728,
+          "loss": 0.20970950341391728
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08017777459185321,
+          "loss": 0.08017777459185321
+        }
+      },
+      {
+        "baseDate": "2026-02-10",
+        "targetDate": "2026-02-11",
+        "lower": 1005.77,
+        "upper": 1227.61,
+        "actualLow": 1115,
+        "actualHigh": 1128,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.19865853549328813,
+          "loss": 0.19865853549328813
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08018339915285348,
+          "loss": 0.08018339915285348
+        }
+      },
+      {
+        "baseDate": "2026-02-11",
+        "targetDate": "2026-02-12",
+        "lower": 1018.13,
+        "upper": 1227.91,
+        "actualLow": 1120,
+        "actualHigh": 1137,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.18679987889797162,
+          "loss": 0.18679987889797162
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08017666648857542,
+          "loss": 0.08017666648857542
+        }
+      },
+      {
+        "baseDate": "2026-02-12",
+        "targetDate": "2026-02-13",
+        "lower": 1022.64,
+        "upper": 1222.4,
+        "actualLow": 1092,
+        "actualHigh": 1127,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.1779567401917116,
+          "loss": 0.1779567401917116
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08017674518048676,
+          "loss": 0.08017674518048676
+        }
+      },
+      {
+        "baseDate": "2026-02-13",
+        "targetDate": "2026-02-24",
+        "lower": 1011.07,
+        "upper": 1206.77,
+        "actualLow": 1138.3,
+        "actualHigh": 1158,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.17647801464487964,
+          "loss": 0.17647801464487964
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.08018612704252792,
+          "loss": 0.16351044259279107
+        }
+      },
+      {
+        "baseDate": "2026-02-24",
+        "targetDate": "2026-02-25",
+        "lower": 1049.65,
+        "upper": 1245.67,
+        "actualLow": 1136,
+        "actualHigh": 1155,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.17079971420106999,
+          "loss": 0.17079971420106999
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08248087412648351,
+          "loss": 0.08248087412648351
+        }
+      },
+      {
+        "baseDate": "2026-02-25",
+        "targetDate": "2026-02-26",
+        "lower": 1051.86,
+        "upper": 1239.42,
+        "actualLow": 1141.51,
+        "actualHigh": 1150,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.16371635068607954,
+          "loss": 0.16371635068607954
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08246918752836843,
+          "loss": 0.08246918752836843
+        }
+      },
+      {
+        "baseDate": "2026-02-26",
+        "targetDate": "2026-02-27",
+        "lower": 1056.19,
+        "upper": 1232.83,
+        "actualLow": 1135,
+        "actualHigh": 1147.9,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.15433679041685952,
+          "loss": 0.15433679041685952
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08248071226987977,
+          "loss": 0.08248071226987977
+        }
+      },
+      {
+        "baseDate": "2026-02-27",
+        "targetDate": "2026-03-02",
+        "lower": 1059.07,
+        "upper": 1226.87,
+        "actualLow": 1144.2,
+        "actualHigh": 1201.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.14681050246288174,
+          "loss": 0.14681050246288174
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.08246935615108007,
+          "loss": 0.28719913908501615
+        }
+      },
+      {
+        "baseDate": "2026-03-02",
+        "targetDate": "2026-03-03",
+        "lower": 1112.97,
+        "upper": 1285.93,
+        "actualLow": 1174.5,
+        "actualHigh": 1219.9,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.1441994247363375,
+          "loss": 0.1441994247363375
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08852390679061241,
+          "loss": 0.08852390679061241
+        }
+      },
+      {
+        "baseDate": "2026-03-03",
+        "targetDate": "2026-03-04",
+        "lower": 1095.08,
+        "upper": 1268.92,
+        "actualLow": 1125,
+        "actualHigh": 1169,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.14707275803722517,
+          "loss": 0.14707275803722517
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.08852791878172578,
+          "loss": 0.1677157360406101
+        }
+      },
+      {
+        "baseDate": "2026-03-04",
+        "targetDate": "2026-03-05",
+        "lower": 1064.16,
+        "upper": 1242.2,
+        "actualLow": 1140.38,
+        "actualHigh": 1158,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.1543904680969146,
+          "loss": 0.1543904680969146
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0964636917046775,
+          "loss": 0.0964636917046775
+        }
+      },
+      {
+        "baseDate": "2026-03-05",
+        "targetDate": "2026-03-06",
+        "lower": 1064.38,
+        "upper": 1234.84,
+        "actualLow": 1132,
+        "actualHigh": 1151,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.14827637198702154,
+          "loss": 0.14827637198702154
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.09645010046885456,
+          "loss": 0.09645010046885456
+        }
+      },
+      {
+        "baseDate": "2026-03-06",
+        "targetDate": "2026-03-09",
+        "lower": 1059.67,
+        "upper": 1218.99,
+        "actualLow": 1120,
+        "actualHigh": 1160,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.13983657061606378,
+          "loss": 0.13983657061606378
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.09646020029315464,
+          "loss": 0.09646020029315464
+        }
+      },
+      {
+        "baseDate": "2026-03-09",
+        "targetDate": "2026-03-10",
+        "lower": 1060.74,
+        "upper": 1220.02,
+        "actualLow": 1132.1,
+        "actualHigh": 1151.6,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.1396727406653922,
+          "loss": 0.1396727406653922
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.09645907504516038,
+          "loss": 0.09645907504516038
+        }
+      },
+      {
+        "baseDate": "2026-03-10",
+        "targetDate": "2026-03-11",
+        "lower": 1068.07,
+        "upper": 1221.49,
+        "actualLow": 1142.5,
+        "actualHigh": 1158,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.1340170163699576,
+          "loss": 0.1340170163699576
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.096455214102273,
+          "loss": 0.096455214102273
+        }
+      },
+      {
+        "baseDate": "2026-03-11",
+        "targetDate": "2026-03-12",
+        "lower": 1076.99,
+        "upper": 1223.85,
+        "actualLow": 1141.5,
+        "actualHigh": 1152,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.12765772500478076,
+          "loss": 0.12765772500478076
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.09645173067227623,
+          "loss": 0.09645173067227623
+        }
+      },
+      {
+        "baseDate": "2026-03-12",
+        "targetDate": "2026-03-13",
+        "lower": 1076.78,
+        "upper": 1216.12,
+        "actualLow": 1129.65,
+        "actualHigh": 1150.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.12154040734441093,
+          "loss": 0.12154040734441093
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.09645427188276848,
+          "loss": 0.09645427188276848
+        }
+      },
+      {
+        "baseDate": "2026-03-13",
+        "targetDate": "2026-03-16",
+        "lower": 1063.39,
+        "upper": 1198.79,
+        "actualLow": 1110.01,
+        "actualHigh": 1140,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.11970753874581146,
+          "loss": 0.11970753874581146
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.09645563129370796,
+          "loss": 0.09645563129370796
+        }
+      },
+      {
+        "baseDate": "2026-03-16",
+        "targetDate": "2026-03-17",
+        "lower": 1047.5,
+        "upper": 1181.72,
+        "actualLow": 1109,
+        "actualHigh": 1121,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.12041880119503687,
+          "loss": 0.12041880119503687
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.09646423412673491,
+          "loss": 0.09646423412673491
+        }
+      },
+      {
+        "baseDate": "2026-03-17",
+        "targetDate": "2026-03-18",
+        "lower": 1051.95,
+        "upper": 1179.99,
+        "actualLow": 1108,
+        "actualHigh": 1117,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.11473426705018949,
+          "loss": 0.11473426705018949
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0964542057582192,
+          "loss": 0.0964542057582192
+        }
+      },
+      {
+        "baseDate": "2026-03-18",
+        "targetDate": "2026-03-19",
+        "lower": 1051.17,
+        "upper": 1172.61,
+        "actualLow": 1057,
+        "actualHigh": 1181,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.10921943717454048,
+          "loss": 0.26013364631393554
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.09644838967883514,
+          "loss": 0.3979170601408411
+        }
+      },
+      {
+        "baseDate": "2026-03-19",
+        "targetDate": "2026-03-20",
+        "lower": 984.94,
+        "upper": 1137.06,
+        "actualLow": 1007,
+        "actualHigh": 1140,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.1433741753063147,
+          "loss": 0.19879359095193305
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.10214891611687098,
+          "loss": 0.5698209236569265
+        }
+      },
+      {
+        "baseDate": "2026-03-20",
+        "targetDate": "2026-03-23",
+        "lower": 949.16,
+        "upper": 1134.02,
+        "actualLow": 911,
+        "actualHigh": 1046,
+        "model": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.17747866242955485,
+          "loss": 0.9102045910579013
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.10295797770715927,
+          "loss": 1.5808907535594627
+        }
+      },
+      {
+        "baseDate": "2026-03-23",
+        "targetDate": "2026-03-24",
+        "lower": 818.59,
+        "upper": 1030.71,
+        "actualLow": 953.2,
+        "actualHigh": 999,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.22940572108365329,
+          "loss": 0.22940572108365329
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.10769480343913918,
+          "loss": 0.6389228356675488
+        }
+      },
+      {
+        "baseDate": "2026-03-24",
+        "targetDate": "2026-03-25",
+        "lower": 869.94,
+        "upper": 1089.18,
+        "actualLow": 965.1,
+        "actualHigh": 1028.99,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.22381477398015437,
+          "loss": 0.22381477398015437
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10927355139042015,
+          "loss": 0.10927355139042015
+        }
+      },
+      {
+        "baseDate": "2026-03-25",
+        "targetDate": "2026-03-26",
+        "lower": 904.09,
+        "upper": 1126.81,
+        "actualLow": 982,
+        "actualHigh": 1022.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.2193313309370229,
+          "loss": 0.2193313309370229
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.1092717514402482,
+          "loss": 0.1092717514402482
+        }
+      },
+      {
+        "baseDate": "2026-03-26",
+        "targetDate": "2026-03-27",
+        "lower": 881.89,
+        "upper": 1100.83,
+        "actualLow": 977,
+        "actualHigh": 999.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.22084812782440277,
+          "loss": 0.22084812782440277
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10928421562298249,
+          "loss": 0.10928421562298249
+        }
+      },
+      {
+        "baseDate": "2026-03-27",
+        "targetDate": "2026-03-30",
+        "lower": 888.88,
+        "upper": 1098.92,
+        "actualLow": 986,
+        "actualHigh": 1015,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.21132910755609224,
+          "loss": 0.21132910755609224
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10928664855619279,
+          "loss": 0.10928664855619279
+        }
+      },
+      {
+        "baseDate": "2026-03-30",
+        "targetDate": "2026-03-31",
+        "lower": 906.89,
+        "upper": 1110.61,
+        "actualLow": 1008,
+        "actualHigh": 1029.99,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.20195291201982643,
+          "loss": 0.20195291201982643
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10928376703841378,
+          "loss": 0.10928376703841378
+        }
+      },
+      {
+        "baseDate": "2026-03-31",
+        "targetDate": "2026-04-01",
+        "lower": 921.02,
+        "upper": 1116.78,
+        "actualLow": 1015,
+        "actualHigh": 1050,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.19212876631661596,
+          "loss": 0.19212876631661596
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.1092747080184512,
+          "loss": 0.1092747080184512
+        }
+      },
+      {
+        "baseDate": "2026-04-01",
+        "targetDate": "2026-04-02",
+        "lower": 951.76,
+        "upper": 1144.02,
+        "actualLow": 1010,
+        "actualHigh": 1095,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.183473456183378,
+          "loss": 0.183473456183378
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10928628004847846,
+          "loss": 0.10928628004847846
+        }
+      },
+      {
+        "baseDate": "2026-04-02",
+        "targetDate": "2026-04-03",
+        "lower": 925.51,
+        "upper": 1129.49,
+        "actualLow": 1020,
+        "actualHigh": 1042,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.19852068126520683,
+          "loss": 0.19852068126520683
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10927493917274947,
+          "loss": 0.10927493917274947
+        }
+      },
+      {
+        "baseDate": "2026-04-03",
+        "targetDate": "2026-04-07",
+        "lower": 936.42,
+        "upper": 1132.42,
+        "actualLow": 1026,
+        "actualHigh": 1035,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.18947816167514173,
+          "loss": 0.18947816167514173
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10927862957019399,
+          "loss": 0.10927862957019399
+        }
+      },
+      {
+        "baseDate": "2026-04-07",
+        "targetDate": "2026-04-08",
+        "lower": 935.66,
+        "upper": 1120.34,
+        "actualLow": 1021,
+        "actualHigh": 1065,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.17964980544747078,
+          "loss": 0.17964980544747078
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10928015564202338,
+          "loss": 0.10928015564202338
+        }
+      },
+      {
+        "baseDate": "2026-04-08",
+        "targetDate": "2026-04-09",
+        "lower": 970.01,
+        "upper": 1149.81,
+        "actualLow": 1036,
+        "actualHigh": 1060,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.16963704465473478,
+          "loss": 0.16963704465473478
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10927342887603658,
+          "loss": 0.10927342887603658
+        }
+      },
+      {
+        "baseDate": "2026-04-09",
+        "targetDate": "2026-04-10",
+        "lower": 949.02,
+        "upper": 1122.98,
+        "actualLow": 1043,
+        "actualHigh": 1055,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.16791505791505795,
+          "loss": 0.16791505791505795
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10928571428571421,
+          "loss": 0.10928571428571421
+        }
+      },
+      {
+        "baseDate": "2026-04-10",
+        "targetDate": "2026-04-13",
+        "lower": 966,
+        "upper": 1128.46,
+        "actualLow": 1035,
+        "actualHigh": 1055,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.1551330653247138,
+          "loss": 0.1551330653247138
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10927876397734983,
+          "loss": 0.10927876397734983
+        }
+      },
+      {
+        "baseDate": "2026-04-13",
+        "targetDate": "2026-04-14",
+        "lower": 965.45,
+        "upper": 1119.15,
+        "actualLow": 1035.1,
+        "actualHigh": 1052,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.14746234289551957,
+          "loss": 0.14746234289551957
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10927755924397964,
+          "loss": 0.10927755924397964
+        }
+      },
+      {
+        "baseDate": "2026-04-14",
+        "targetDate": "2026-04-15",
+        "lower": 974.64,
+        "upper": 1122.06,
+        "actualLow": 1046,
+        "actualHigh": 1067.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.14062097581914434,
+          "loss": 0.14062097581914434
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10927648209090482,
+          "loss": 0.10927648209090482
+        }
+      },
+      {
+        "baseDate": "2026-04-15",
+        "targetDate": "2026-04-16",
+        "lower": 983.71,
+        "upper": 1126.67,
+        "actualLow": 1050,
+        "actualHigh": 1060.2,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.1354827092751069,
+          "loss": 0.1354827092751069
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10928837460552121,
+          "loss": 0.10928837460552121
+        }
+      },
+      {
+        "baseDate": "2026-04-16",
+        "targetDate": "2026-04-17",
+        "lower": 993.58,
+        "upper": 1123.14,
+        "actualLow": 1046.1,
+        "actualHigh": 1060,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.12241581314486571,
+          "loss": 0.12241581314486571
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10928228580067283,
+          "loss": 0.10928228580067283
+        }
+      },
+      {
+        "baseDate": "2026-04-17",
+        "targetDate": "2026-04-20",
+        "lower": 995.5,
+        "upper": 1110.5,
+        "actualLow": 1045,
+        "actualHigh": 1070,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10921177587844255,
+          "loss": 0.10921177587844255
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10928774928774922,
+          "loss": 0.10928774928774922
+        }
+      },
+      {
+        "baseDate": "2026-04-20",
+        "targetDate": "2026-04-21",
+        "lower": 997.51,
+        "upper": 1110.45,
+        "actualLow": 1048.06,
+        "actualHigh": 1059,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10715573350537966,
+          "loss": 0.10715573350537966
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10928101102487708,
+          "loss": 0.10928101102487708
+        }
+      },
+      {
+        "baseDate": "2026-04-21",
+        "targetDate": "2026-04-22",
+        "lower": 1003.74,
+        "upper": 1097.22,
+        "actualLow": 1038.88,
+        "actualHigh": 1055.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08898789124971443,
+          "loss": 0.08898789124971443
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294341634300509,
+          "loss": 0.10294341634300509
+        }
+      },
+      {
+        "baseDate": "2026-04-22",
+        "targetDate": "2026-04-23",
+        "lower": 1003.89,
+        "upper": 1094.33,
+        "actualLow": 1034.5,
+        "actualHigh": 1053,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0862064035229861,
+          "loss": 0.0862064035229861
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294440049184538,
+          "loss": 0.10294440049184538
+        }
+      },
+      {
+        "baseDate": "2026-04-23",
+        "targetDate": "2026-04-24",
+        "lower": 993.53,
+        "upper": 1081.47,
+        "actualLow": 1028,
+        "actualHigh": 1044,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08476144578313258,
+          "loss": 0.08476144578313258
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10295903614457837,
+          "loss": 0.10295903614457837
+        }
+      },
+      {
+        "baseDate": "2026-04-24",
+        "targetDate": "2026-04-27",
+        "lower": 990.7,
+        "upper": 1075.8,
+        "actualLow": 1033,
+        "actualHigh": 1044,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0823614807645777,
+          "loss": 0.0823614807645777
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10295669005564975,
+          "loss": 0.10295669005564975
+        }
+      },
+      {
+        "baseDate": "2026-04-27",
+        "targetDate": "2026-04-28",
+        "lower": 996.82,
+        "upper": 1077.6,
+        "actualLow": 1019,
+        "actualHigh": 1038.9,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07788201039326641,
+          "loss": 0.07788201039326641
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294925810588006,
+          "loss": 0.10294925810588006
+        }
+      },
+      {
+        "baseDate": "2026-04-28",
+        "targetDate": "2026-04-29",
+        "lower": 981.11,
+        "upper": 1060.35,
+        "actualLow": 1006.32,
+        "actualHigh": 1020,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07763071527240298,
+          "loss": 0.07763071527240298
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294593085340877,
+          "loss": 0.10294593085340877
+        }
+      },
+      {
+        "baseDate": "2026-04-29",
+        "targetDate": "2026-04-30",
+        "lower": 971.56,
+        "upper": 1048.2,
+        "actualLow": 995,
+        "actualHigh": 1016,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07589020477680526,
+          "loss": 0.07589020477680526
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294292391175182,
+          "loss": 0.10294292391175182
+        }
+      },
+      {
+        "baseDate": "2026-04-30",
+        "targetDate": "2026-05-06",
+        "lower": 975.78,
+        "upper": 1051.42,
+        "actualLow": 1014.04,
+        "actualHigh": 1027,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07462509865824793,
+          "loss": 0.07462509865824793
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10295974743488556,
+          "loss": 0.10295974743488556
+        }
+      },
+      {
+        "baseDate": "2026-05-06",
+        "targetDate": "2026-05-07",
+        "lower": 990.4,
+        "upper": 1063.48,
+        "actualLow": 1025.1,
+        "actualHigh": 1044.99,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07116287222233045,
+          "loss": 0.07116287222233045
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294661810816592,
+          "loss": 0.10294661810816592
+        }
+      },
+      {
+        "baseDate": "2026-05-07",
+        "targetDate": "2026-05-08",
+        "lower": 1002.89,
+        "upper": 1074.99,
+        "actualLow": 1031,
+        "actualHigh": 1045,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0693976553025199,
+          "loss": 0.0693976553025199
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.1029510847594664,
+          "loss": 0.1029510847594664
+        }
+      },
+      {
+        "baseDate": "2026-05-08",
+        "targetDate": "2026-05-11",
+        "lower": 997.04,
+        "upper": 1066.96,
+        "actualLow": 1018.31,
+        "actualHigh": 1039.9,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06775193798449619,
+          "loss": 0.06775193798449619
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294573643410843,
+          "loss": 0.10294573643410843
+        }
+      },
+      {
+        "baseDate": "2026-05-11",
+        "targetDate": "2026-05-12",
+        "lower": 991.06,
+        "upper": 1060.58,
+        "actualLow": 1025,
+        "actualHigh": 1040.1,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06777017410461873,
+          "loss": 0.06777017410461873
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10296153321245455,
+          "loss": 0.10296153321245455
+        }
+      },
+      {
+        "baseDate": "2026-05-12",
+        "targetDate": "2026-05-13",
+        "lower": 994.62,
+        "upper": 1062.4,
+        "actualLow": 1018,
+        "actualHigh": 1032.9,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06590115798582424,
+          "loss": 0.06590115798582424
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294503699526499,
+          "loss": 0.10294503699526499
+        }
+      },
+      {
+        "baseDate": "2026-05-13",
+        "targetDate": "2026-05-14",
+        "lower": 996.94,
+        "upper": 1063.04,
+        "actualLow": 1022.02,
+        "actualHigh": 1031.2,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06417538034349839,
+          "loss": 0.06417538034349839
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10295245584908588,
+          "loss": 0.10295245584908588
+        }
+      },
+      {
+        "baseDate": "2026-05-14",
+        "targetDate": "2026-05-15",
+        "lower": 997.01,
+        "upper": 1060.35,
+        "actualLow": 1000.05,
+        "actualHigh": 1031.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.061574056071859,
+          "loss": 0.061574056071859
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294746665629748,
+          "loss": 0.10294746665629748
+        }
+      },
+      {
+        "baseDate": "2026-05-15",
+        "targetDate": "2026-05-18",
+        "lower": 973.26,
+        "upper": 1038.76,
+        "actualLow": 980.02,
+        "actualHigh": 1005,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06510869673263685,
+          "loss": 0.06510869673263685
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10296120316895452,
+          "loss": 0.10296120316895452
+        }
+      },
+      {
+        "baseDate": "2026-05-18",
+        "targetDate": "2026-05-19",
+        "lower": 966.51,
+        "upper": 1032.87,
+        "actualLow": 995,
+        "actualHigh": 1008.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06638057797917345,
+          "loss": 0.06638057797917345
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10295191509367911,
+          "loss": 0.10295191509367911
+        }
+      },
+      {
+        "baseDate": "2026-05-19",
+        "targetDate": "2026-05-20",
+        "lower": 965.72,
+        "upper": 1030.28,
+        "actualLow": 979.01,
+        "actualHigh": 1000.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06468937875751497,
+          "loss": 0.06468937875751497
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294589178356703,
+          "loss": 0.10294589178356703
+        }
+      },
+      {
+        "baseDate": "2026-05-20",
+        "targetDate": "2026-05-21",
+        "lower": 952.72,
+        "upper": 1017.24,
+        "actualLow": 984,
+        "actualHigh": 1002,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06550386809884463,
+          "loss": 0.06550386809884463
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294625271579128,
+          "loss": 0.10294625271579128
+        }
+      },
+      {
+        "baseDate": "2026-05-21",
+        "targetDate": "2026-05-22",
+        "lower": 959.53,
+        "upper": 1023.27,
+        "actualLow": 986,
+        "actualHigh": 995.95,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06429291910429696,
+          "loss": 0.06429291910429696
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294532983659478,
+          "loss": 0.10294532983659478
+        }
+      },
+      {
+        "baseDate": "2026-05-22",
+        "targetDate": "2026-05-25",
+        "lower": 961.45,
+        "upper": 1022.75,
+        "actualLow": 985.6,
+        "actualHigh": 1001.99,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0617881261969559,
+          "loss": 0.0617881261969559
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10295333131740762,
+          "loss": 0.10295333131740762
+        }
+      },
+      {
+        "baseDate": "2026-05-25",
+        "targetDate": "2026-05-26",
+        "lower": 966.79,
+        "upper": 1027.21,
+        "actualLow": 990.17,
+        "actualHigh": 1000.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06060180541624882,
+          "loss": 0.06060180541624882
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294884653961885,
+          "loss": 0.10294884653961885
+        }
+      },
+      {
+        "baseDate": "2026-05-26",
+        "targetDate": "2026-05-27",
+        "lower": 962.82,
+        "upper": 1021.12,
+        "actualLow": 979.01,
+        "actualHigh": 993,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.058771938667499975,
+          "loss": 0.058771938667499975
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294666169339799,
+          "loss": 0.10294666169339799
+        }
+      },
+      {
+        "baseDate": "2026-05-27",
+        "targetDate": "2026-05-28",
+        "lower": 953.98,
+        "upper": 1011.08,
+        "actualLow": 956.01,
+        "actualHigh": 980,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05811527383387787,
+          "loss": 0.05811527383387787
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10295868828432705,
+          "loss": 0.10295868828432705
+        }
+      },
+      {
+        "baseDate": "2026-05-28",
+        "targetDate": "2026-05-29",
+        "lower": 932.48,
+        "upper": 991.16,
+        "actualLow": 959,
+        "actualHigh": 988,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.061009336466282614,
+          "loss": 0.061009336466282614
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10295065604790926,
+          "loss": 0.10295065604790926
+        }
+      },
+      {
+        "baseDate": "2026-05-29",
+        "targetDate": "2026-06-01",
+        "lower": 954.63,
+        "upper": 1015.29,
+        "actualLow": 980.02,
+        "actualHigh": 999,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06158625730994149,
+          "loss": 0.06158625730994149
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10294834307992212,
+          "loss": 0.10294834307992212
+        }
+      },
+      {
+        "baseDate": "2026-06-01",
+        "targetDate": "2026-06-02",
+        "lower": 950.42,
+        "upper": 1010.78,
+        "actualLow": 970.1,
+        "actualHigh": 989,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06155415052008975,
+          "loss": 0.06155415052008975
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10295737303691609,
+          "loss": 0.10295737303691609
+        }
+      },
+      {
+        "baseDate": "2026-06-02",
+        "targetDate": "2026-06-03",
+        "lower": 957.41,
+        "upper": 1017.49,
+        "actualLow": 972.4,
+        "actualHigh": 987,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.060843587017064195,
+          "loss": 0.060843587017064195
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10295204820497236,
+          "loss": 0.10295204820497236
+        }
+      },
+      {
+        "baseDate": "2026-06-03",
+        "targetDate": "2026-06-04",
+        "lower": 943.7,
+        "upper": 1001.9,
+        "actualLow": 970,
+        "actualHigh": 978.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05982730263157888,
+          "loss": 0.05982730263157888
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215871710526316,
+          "loss": 0.10215871710526316
+        }
+      },
+      {
+        "baseDate": "2026-06-04",
+        "targetDate": "2026-06-05",
+        "lower": 946.59,
+        "upper": 1002.41,
+        "actualLow": 966.5,
+        "actualHigh": 984.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.057280656747049706,
+          "loss": 0.057280656747049706
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216521292970748,
+          "loss": 0.10216521292970748
+        }
+      },
+      {
+        "baseDate": "2026-06-05",
+        "targetDate": "2026-06-08",
+        "lower": 946.6,
+        "upper": 1002.22,
+        "actualLow": 932,
+        "actualHigh": 975,
+        "model": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.05708069498465739,
+          "loss": 0.35674921234388035
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215412403403093,
+          "loss": 0.10215412403403093
+        }
+      },
+      {
+        "baseDate": "2026-06-08",
+        "targetDate": "2026-06-09",
+        "lower": 910.26,
+        "upper": 971.76,
+        "actualLow": 944,
+        "actualHigh": 951.48,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0653553097204068,
+          "loss": 0.0653553097204068
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216682075642128,
+          "loss": 0.10216682075642128
+        }
+      },
+      {
+        "baseDate": "2026-06-09",
+        "targetDate": "2026-06-10",
+        "lower": 915.32,
+        "upper": 974.64,
+        "actualLow": 910,
+        "actualHigh": 950,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.06277381531884266,
+          "loss": 0.1753687908738819
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216089229401676,
+          "loss": 0.10216089229401676
+        }
+      },
+      {
+        "baseDate": "2026-06-10",
+        "targetDate": "2026-06-11",
+        "lower": 878.76,
+        "upper": 952.5,
+        "actualLow": 883.81,
+        "actualHigh": 915,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08053471380361064,
+          "loss": 0.08053471380361064
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215916909668749,
+          "loss": 0.10215916909668749
+        }
+      },
+      {
+        "baseDate": "2026-06-11",
+        "targetDate": "2026-06-12",
+        "lower": 857.85,
+        "upper": 934.17,
+        "actualLow": 885,
+        "actualHigh": 919,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08517762078548223,
+          "loss": 0.08517762078548223
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216403834778626,
+          "loss": 0.10216403834778626
+        }
+      },
+      {
+        "baseDate": "2026-06-12",
+        "targetDate": "2026-06-15",
+        "lower": 867.84,
+        "upper": 947.1,
+        "actualLow": 909,
+        "actualHigh": 943,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08734173030513404,
+          "loss": 0.08734173030513404
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215213726073594,
+          "loss": 0.10215213726073594
+        }
+      },
+      {
+        "baseDate": "2026-06-15",
+        "targetDate": "2026-06-16",
+        "lower": 896.33,
+        "upper": 978.69,
+        "actualLow": 936.7,
+        "actualHigh": 948.6,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08784972960288426,
+          "loss": 0.08784972960288426
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216424358140178,
+          "loss": 0.10216424358140178
+        }
+      },
+      {
+        "baseDate": "2026-06-16",
+        "targetDate": "2026-06-17",
+        "lower": 900.77,
+        "upper": 980.19,
+        "actualLow": 937,
+        "actualHigh": 945.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08444624021776122,
+          "loss": 0.08444624021776122
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216059884314385,
+          "loss": 0.10216059884314385
+        }
+      },
+      {
+        "baseDate": "2026-06-17",
+        "targetDate": "2026-06-18",
+        "lower": 901.22,
+        "upper": 977.14,
+        "actualLow": 933.33,
+        "actualHigh": 950,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08083647437126,
+          "loss": 0.08083647437126
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215294192806484,
+          "loss": 0.10215294192806484
+        }
+      },
+      {
+        "baseDate": "2026-06-18",
+        "targetDate": "2026-06-22",
+        "lower": 898.56,
+        "upper": 973.16,
+        "actualLow": 908.01,
+        "actualHigh": 920,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07971277755219801,
+          "loss": 0.07971277755219801
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215203128673095,
+          "loss": 0.10215203128673095
+        }
+      },
+      {
+        "baseDate": "2026-06-22",
+        "targetDate": "2026-06-23",
+        "lower": 876.28,
+        "upper": 952.42,
+        "actualLow": 896.01,
+        "actualHigh": 918.99,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08327226991852134,
+          "loss": 0.08327226991852134
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10214906764368127,
+          "loss": 0.10214906764368127
+        }
+      },
+      {
+        "baseDate": "2026-06-23",
+        "targetDate": "2026-06-24",
+        "lower": 860.74,
+        "upper": 937.12,
+        "actualLow": 885,
+        "actualHigh": 904.6,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08496768380185331,
+          "loss": 0.08496768380185331
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216590835771422,
+          "loss": 0.10216590835771422
+        }
+      },
+      {
+        "baseDate": "2026-06-24",
+        "targetDate": "2026-06-25",
+        "lower": 856.51,
+        "upper": 932.27,
+        "actualLow": 867,
+        "actualHigh": 888,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08470577712183722,
+          "loss": 0.08470577712183722
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10214783260099064,
+          "loss": 0.10214783260099064
+        }
+      },
+      {
+        "baseDate": "2026-06-25",
+        "targetDate": "2026-06-26",
+        "lower": 836.4,
+        "upper": 913.5,
+        "actualLow": 870.01,
+        "actualHigh": 885,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0881193211040631,
+          "loss": 0.0881193211040631
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215440882336133,
+          "loss": 0.10215440882336133
+        }
+      },
+      {
+        "baseDate": "2026-06-26",
+        "targetDate": "2026-06-29",
+        "lower": 846.05,
+        "upper": 921.35,
+        "actualLow": 881.21,
+        "actualHigh": 894.88,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08520991286635743,
+          "loss": 0.08520991286635743
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216136697974434,
+          "loss": 0.10216136697974434
+        }
+      },
+      {
+        "baseDate": "2026-06-29",
+        "targetDate": "2026-06-30",
+        "lower": 850.1,
+        "upper": 923.38,
+        "actualLow": 860.02,
+        "actualHigh": 887.99,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08263978167219249,
+          "loss": 0.08263978167219249
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10214944628639729,
+          "loss": 0.10214944628639729
+        }
+      },
+      {
+        "baseDate": "2026-06-30",
+        "targetDate": "2026-07-01",
+        "lower": 841.55,
+        "upper": 916.51,
+        "actualLow": 866.5,
+        "actualHigh": 886,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08527581538741572,
+          "loss": 0.08527581538741572
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215806058951339,
+          "loss": 0.10215806058951339
+        }
+      },
+      {
+        "baseDate": "2026-07-01",
+        "targetDate": "2026-07-02",
+        "lower": 831.6,
+        "upper": 906,
+        "actualLow": 874.2,
+        "actualHigh": 896,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08563535911602208,
+          "loss": 0.08563535911602208
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216390423572744,
+          "loss": 0.10216390423572744
+        }
+      },
+      {
+        "baseDate": "2026-07-02",
+        "targetDate": "2026-07-03",
+        "lower": 849.1,
+        "upper": 924.9,
+        "actualLow": 886,
+        "actualHigh": 915.7,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08545659526493794,
+          "loss": 0.08545659526493794
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216459977452073,
+          "loss": 0.10216459977452073
+        }
+      },
+      {
+        "baseDate": "2026-07-03",
+        "targetDate": "2026-07-06",
+        "lower": 876.13,
+        "upper": 945.83,
+        "actualLow": 905.1,
+        "actualHigh": 917,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07651101012096867,
+          "loss": 0.07651101012096867
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.1021537245603635,
+          "loss": 0.1021537245603635
+        }
+      },
+      {
+        "baseDate": "2026-07-06",
+        "targetDate": "2026-07-07",
+        "lower": 874.1,
+        "upper": 941.44,
+        "actualLow": 899.01,
+        "actualHigh": 909,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07418178613525456,
+          "loss": 0.07418178613525456
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216244202826709,
+          "loss": 0.10216244202826709
+        }
+      },
+      {
+        "baseDate": "2026-07-07",
+        "targetDate": "2026-07-08",
+        "lower": 870.2,
+        "upper": 934.94,
+        "actualLow": 895.95,
+        "actualHigh": 912,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07172850859213137,
+          "loss": 0.07172850859213137
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215274161560868,
+          "loss": 0.10215274161560868
+        }
+      },
+      {
+        "baseDate": "2026-07-08",
+        "targetDate": "2026-07-09",
+        "lower": 869.23,
+        "upper": 932.91,
+        "actualLow": 883,
+        "actualHigh": 899,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07067153495288929,
+          "loss": 0.07067153495288929
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216742317467017,
+          "loss": 0.10216742317467017
+        }
+      },
+      {
+        "baseDate": "2026-07-09",
+        "targetDate": "2026-07-10",
+        "lower": 867.23,
+        "upper": 930.35,
+        "actualLow": 896.8,
+        "actualHigh": 904.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07022775064253052,
+          "loss": 0.07022775064253052
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215957008867484,
+          "loss": 0.10215957008867484
+        }
+      },
+      {
+        "baseDate": "2026-07-10",
+        "targetDate": "2026-07-13",
+        "lower": 867.09,
+        "upper": 927.41,
+        "actualLow": 883,
+        "actualHigh": 900,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06722764001114509,
+          "loss": 0.06722764001114509
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215658957927008,
+          "loss": 0.10215658957927008
+        }
+      },
+      {
+        "baseDate": "2026-07-13",
+        "targetDate": "2026-07-14",
+        "lower": 856.58,
+        "upper": 916.34,
+        "actualLow": 872,
+        "actualHigh": 889,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06741420932698598,
+          "loss": 0.06741420932698598
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215914987703907,
+          "loss": 0.10215914987703907
+        }
+      },
+      {
+        "baseDate": "2026-07-14",
+        "targetDate": "2026-07-15",
+        "lower": 850.27,
+        "upper": 909.53,
+        "actualLow": 876.8,
+        "actualHigh": 895,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06734856233662916,
+          "loss": 0.06734856233662916
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10214797136038185,
+          "loss": 0.10214797136038185
+        }
+      },
+      {
+        "baseDate": "2026-07-15",
+        "targetDate": "2026-07-16",
+        "lower": 848.46,
+        "upper": 907.52,
+        "actualLow": 876,
+        "actualHigh": 888,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0672672809485301,
+          "loss": 0.0672672809485301
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216517272406296,
+          "loss": 0.10216517272406296
+        }
+      },
+      {
+        "baseDate": "2026-07-16",
+        "targetDate": "2026-07-17",
+        "lower": 848.57,
+        "upper": 906.07,
+        "actualLow": 867,
+        "actualHigh": 882.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06554050973419048,
+          "loss": 0.06554050973419048
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215200838918524,
+          "loss": 0.10215200838918524
+        }
+      },
+      {
+        "baseDate": "2026-07-17",
+        "targetDate": "2026-07-20",
+        "lower": 844.07,
+        "upper": 900.89,
+        "actualLow": 866,
+        "actualHigh": 878.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06512470199889961,
+          "loss": 0.06512470199889961
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216853108380707,
+          "loss": 0.10216853108380707
+        }
+      },
+      {
+        "baseDate": "2026-07-20",
+        "targetDate": "2026-07-21",
+        "lower": 845.24,
+        "upper": 900.76,
+        "actualLow": 872,
+        "actualHigh": 889.6,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0635967926689576,
+          "loss": 0.0635967926689576
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215349369988552,
+          "loss": 0.10215349369988552
+        }
+      },
+      {
+        "baseDate": "2026-07-21",
+        "targetDate": "2026-07-22",
+        "lower": 859.22,
+        "upper": 914.68,
+        "actualLow": 882.01,
+        "actualHigh": 904,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06252889114380734,
+          "loss": 0.06252889114380734
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10214780991036701,
+          "loss": 0.10214780991036701
+        }
+      },
+      {
+        "baseDate": "2026-07-22",
+        "targetDate": "2026-07-23",
+        "lower": 870.82,
+        "upper": 927.18,
+        "actualLow": 895,
+        "actualHigh": 908,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06269187986651824,
+          "loss": 0.06269187986651824
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215795328142371,
+          "loss": 0.10215795328142371
+        }
+      },
+      {
+        "baseDate": "2026-07-23",
+        "targetDate": "2026-07-24",
+        "lower": 869.1,
+        "upper": 922.24,
+        "actualLow": 877.53,
+        "actualHigh": 892,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05932988712360578,
+          "loss": 0.05932988712360578
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215816092980674,
+          "loss": 0.10215816092980674
+        }
+      },
+      {
+        "baseDate": "2026-07-24",
+        "targetDate": "2026-07-27",
+        "lower": 857.06,
+        "upper": 910.26,
+        "actualLow": 882,
+        "actualHigh": 896,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.060204150917773855,
+          "loss": 0.060204150917773855
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216599144467327,
+          "loss": 0.10216599144467327
+        }
+      },
+      {
+        "baseDate": "2026-07-27",
+        "targetDate": "2026-07-28",
+        "lower": 867.77,
+        "upper": 920.17,
+        "actualLow": 879.5,
+        "actualHigh": 896,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05861494233587254,
+          "loss": 0.05861494233587254
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.102151078895265,
+          "loss": 0.102151078895265
+        }
+      },
+      {
+        "baseDate": "2026-07-28",
+        "targetDate": "2026-07-29",
+        "lower": 857.57,
+        "upper": 908.99,
+        "actualLow": 875.03,
+        "actualHigh": 885,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0582148356127162,
+          "loss": 0.0582148356127162
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10216465899827916,
+          "loss": 0.10216465899827916
+        }
+      },
+      {
+        "baseDate": "2026-07-29",
+        "targetDate": "2026-07-30",
+        "lower": 857.06,
+        "upper": 906.9,
+        "actualLow": 872.05,
+        "actualHigh": 891.6,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.056509217896097454,
+          "loss": 0.056509217896097454
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10215651148552124,
+          "loss": 0.10215651148552124
+        }
+      },
+      {
+        "baseDate": "2026-07-30",
+        "targetDate": "2026-07-31",
+        "lower": 856.15,
+        "upper": 905.23,
+        "actualLow": 883.5,
+        "actualHigh": 895,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.055729030646425,
+          "loss": 0.055729030646425
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.10094357833062709,
+          "loss": 0.10094357833062709
+        }
+      },
+      {
+        "baseDate": "2026-07-31",
+        "targetDate": "2026-08-03",
+        "lower": 860.82,
+        "upper": 909.02,
+        "actualLow": 876,
+        "actualHigh": 886,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05446820051530074,
+          "loss": 0.05446820051530074
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.09646069701215931,
+          "loss": 0.09646069701215931
+        }
+      },
+      {
+        "baseDate": "2026-08-03",
+        "targetDate": "2026-08-04",
+        "lower": 860.28,
+        "upper": 905.8,
+        "actualLow": 876,
+        "actualHigh": 885,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05154919369450986,
+          "loss": 0.05154919369450986
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08991665156731289,
+          "loss": 0.08991665156731289
+        }
+      },
+      {
+        "baseDate": "2026-08-04",
+        "targetDate": "2026-08-05",
+        "lower": 862.79,
+        "upper": 905.65,
+        "actualLow": 883.1,
+        "actualHigh": 907.49,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.048472099703693663,
+          "loss": 0.0900907014091523
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08853000384519687,
+          "loss": 0.08853000384519687
+        }
+      },
+      {
+        "baseDate": "2026-08-05",
+        "targetDate": "2026-08-06",
+        "lower": 882.67,
+        "upper": 927.17,
+        "actualLow": 906.01,
+        "actualHigh": 935,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.049175617734164345,
+          "loss": 0.2222295893559661
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0870574194403925,
+          "loss": 0.0870574194403925
+        }
+      },
+      {
+        "baseDate": "2026-08-06",
+        "targetDate": "2026-08-07",
+        "lower": 902.05,
+        "upper": 949.15,
+        "actualLow": 918,
+        "actualHigh": 934,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.050885911840968044,
+          "loss": 0.050885911840968044
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.08018582541054455,
+          "loss": 0.08018582541054455
+        }
+      },
+      {
+        "baseDate": "2026-08-07",
+        "targetDate": "2026-08-10",
+        "lower": 907.06,
+        "upper": 953.88,
+        "actualLow": 934,
+        "actualHigh": 948,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.050318656163014445,
+          "loss": 0.050318656163014445
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07832600728664008,
+          "loss": 0.07832600728664008
+        }
+      },
+      {
+        "baseDate": "2026-08-10",
+        "targetDate": "2026-08-11",
+        "lower": 921.24,
+        "upper": 968.1,
+        "actualLow": 938,
+        "actualHigh": 965,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04960462383689544,
+          "loss": 0.04960462383689544
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0740364360041072,
+          "loss": 0.0740364360041072
+        }
+      },
+      {
+        "baseDate": "2026-08-11",
+        "targetDate": "2026-08-12",
+        "lower": 922.35,
+        "upper": 971.05,
+        "actualLow": 950,
+        "actualHigh": 958,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05144185063906193,
+          "loss": 0.05144185063906193
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07199746487799721,
+          "loss": 0.07199746487799721
+        }
+      },
+      {
+        "baseDate": "2026-08-12",
+        "targetDate": "2026-08-13",
+        "lower": 932.05,
+        "upper": 979.45,
+        "actualLow": 947.2,
+        "actualHigh": 963,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04959455924666502,
+          "loss": 0.04959455924666502
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07198535181794398,
+          "loss": 0.07198535181794398
+        }
+      },
+      {
+        "baseDate": "2026-08-13",
+        "targetDate": "2026-08-14",
+        "lower": 925.71,
+        "upper": 972.77,
+        "actualLow": 933.01,
+        "actualHigh": 955,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04957650330790943,
+          "loss": 0.04957650330790943
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07199443765538738,
+          "loss": 0.07199443765538738
+        }
+      },
+      {
+        "baseDate": "2026-08-14",
+        "targetDate": "2026-08-17",
+        "lower": 916.76,
+        "upper": 964.68,
+        "actualLow": 946,
+        "actualHigh": 956,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.050939705757292245,
+          "loss": 0.050939705757292245
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07198741389573945,
+          "loss": 0.07198741389573945
+        }
+      },
+      {
+        "baseDate": "2026-08-17",
+        "targetDate": "2026-08-18",
+        "lower": 928.72,
+        "upper": 976.16,
+        "actualLow": 948.5,
+        "actualHigh": 961,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.049808911847465394,
+          "loss": 0.049808911847465394
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.07200453571878547,
+          "loss": 0.07200453571878547
+        }
+      },
+      {
+        "baseDate": "2026-08-18",
+        "targetDate": "2026-08-19",
+        "lower": 931.93,
+        "upper": 978.39,
+        "actualLow": 939.5,
+        "actualHigh": 959.99,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04864106537124674,
+          "loss": 0.04864106537124674
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06951714895933664,
+          "loss": 0.06951714895933664
+        }
+      },
+      {
+        "baseDate": "2026-08-19",
+        "targetDate": "2026-08-20",
+        "lower": 921.68,
+        "upper": 968.76,
+        "actualLow": 945,
+        "actualHigh": 972.9,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.0498085101881044,
+          "loss": 0.13740716446964704
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06950762785383302,
+          "loss": 0.06950762785383302
+        }
+      },
+      {
+        "baseDate": "2026-08-20",
+        "targetDate": "2026-08-21",
+        "lower": 942.93,
+        "upper": 993.35,
+        "actualLow": 962,
+        "actualHigh": 986.6,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05207924473733146,
+          "loss": 0.05207924473733146
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06951473960377627,
+          "loss": 0.06951473960377627
+        }
+      },
+      {
+        "baseDate": "2026-08-21",
+        "targetDate": "2026-08-24",
+        "lower": 957.72,
+        "upper": 1009.4,
+        "actualLow": 985,
+        "actualHigh": 1006.6,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05254382040749924,
+          "loss": 0.05254382040749924
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06952295741998454,
+          "loss": 0.06952295741998454
+        }
+      },
+      {
+        "baseDate": "2026-08-24",
+        "targetDate": "2026-08-25",
+        "lower": 978.63,
+        "upper": 1029.79,
+        "actualLow": 998.5,
+        "actualHigh": 1012.6,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05094551936347972,
+          "loss": 0.05094551936347972
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0665000348532676,
+          "loss": 0.0665000348532676
+        }
+      },
+      {
+        "baseDate": "2026-08-25",
+        "targetDate": "2026-08-26",
+        "lower": 974.89,
+        "upper": 1025.11,
+        "actualLow": 992.08,
+        "actualHigh": 1007.9,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05021999999999991,
+          "loss": 0.05021999999999991
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0665,
+          "loss": 0.0665
+        }
+      },
+      {
+        "baseDate": "2026-08-26",
+        "targetDate": "2026-08-27",
+        "lower": 975.85,
+        "upper": 1025.51,
+        "actualLow": 991,
+        "actualHigh": 1002.2,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.04962625414717989,
+          "loss": 0.04962625414717989
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0658951912699365,
+          "loss": 0.0658951912699365
+        }
+      },
+      {
+        "baseDate": "2026-08-27",
+        "targetDate": "2026-08-28",
+        "lower": 968.15,
+        "upper": 1016.43,
+        "actualLow": 986,
+        "actualHigh": 997.66,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.048655131060476246,
+          "loss": 0.048655131060476246
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06588799645264994,
+          "loss": 0.06588799645264994
+        }
+      },
+      {
+        "baseDate": "2026-08-28",
+        "targetDate": "2026-08-31",
+        "lower": 971.51,
+        "upper": 1018.59,
+        "actualLow": 951,
+        "actualHigh": 1000,
+        "model": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.047314205316315805,
+          "loss": 0.4595547962413948
+        },
+        "baseline": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.06588613637505648,
+          "loss": 0.2924074167127276
+        }
+      },
+      {
+        "baseDate": "2026-08-31",
+        "targetDate": "2026-09-01",
+        "lower": 934.71,
+        "upper": 989.29,
+        "actualLow": 956,
+        "actualHigh": 966,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05673596673596666,
+          "loss": 0.05673596673596666
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06648648648648653,
+          "loss": 0.06648648648648653
+        }
+      },
+      {
+        "baseDate": "2026-09-01",
+        "targetDate": "2026-09-02",
+        "lower": 931.59,
+        "upper": 984.25,
+        "actualLow": 926.8,
+        "actualHigh": 948,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.054973275430098514,
+          "loss": 0.15498162685819433
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06649824620010016,
+          "loss": 0.06649824620010016
+        }
+      },
+      {
+        "baseDate": "2026-09-02",
+        "targetDate": "2026-09-03",
+        "lower": 908.4,
+        "upper": 966.6,
+        "actualLow": 937.5,
+        "actualHigh": 961,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06208000000000005,
+          "loss": 0.06208000000000005
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06649599999999992,
+          "loss": 0.06649599999999992
+        }
+      },
+      {
+        "baseDate": "2026-09-03",
+        "targetDate": "2026-09-04",
+        "lower": 928.03,
+        "upper": 986.97,
+        "actualLow": 958.2,
+        "actualHigh": 975,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06155613577023505,
+          "loss": 0.06155613577023505
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06648563968668415,
+          "loss": 0.06648563968668415
+        }
+      },
+      {
+        "baseDate": "2026-09-04",
+        "targetDate": "2026-09-07",
+        "lower": 936.75,
+        "upper": 995.15,
+        "actualLow": 943,
+        "actualHigh": 968,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06045861587038664,
+          "loss": 0.06045861587038664
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06648377245199018,
+          "loss": 0.06648377245199018
+        }
+      },
+      {
+        "baseDate": "2026-09-07",
+        "targetDate": "2026-09-08",
+        "lower": 919.88,
+        "upper": 979.32,
+        "actualLow": 948,
+        "actualHigh": 959.94,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06259477674810453,
+          "loss": 0.06259477674810453
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.0664911541701769,
+          "loss": 0.0664911541701769
+        }
+      },
+      {
+        "baseDate": "2026-09-08",
+        "targetDate": "2026-09-09",
+        "lower": 922.67,
+        "upper": 980.37,
+        "actualLow": 941,
+        "actualHigh": 952.8,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06063981839582988,
+          "loss": 0.06063981839582988
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06648310072305363,
+          "loss": 0.06648310072305363
+        }
+      },
+      {
+        "baseDate": "2026-09-09",
+        "targetDate": "2026-09-10",
+        "lower": 923.75,
+        "upper": 979.79,
+        "actualLow": 945.51,
+        "actualHigh": 957,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05887977137333596,
+          "loss": 0.05887977137333596
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06648665118673626,
+          "loss": 0.06648665118673626
+        }
+      },
+      {
+        "baseDate": "2026-09-10",
+        "targetDate": "2026-09-11",
+        "lower": 927.24,
+        "upper": 978.74,
+        "actualLow": 929,
+        "actualHigh": 952,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05404044113789232,
+          "loss": 0.05404044113789232
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06589785831960457,
+          "loss": 0.06589785831960457
+        }
+      },
+      {
+        "baseDate": "2026-09-11",
+        "targetDate": "2026-09-14",
+        "lower": 913.96,
+        "upper": 965.12,
+        "actualLow": 932.8,
+        "actualHigh": 950,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05445217872575938,
+          "loss": 0.05445217872575938
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06498925005853935,
+          "loss": 0.06498925005853935
+        }
+      },
+      {
+        "baseDate": "2026-09-14",
+        "targetDate": "2026-09-15",
+        "lower": 907.72,
+        "upper": 957.88,
+        "actualLow": 920,
+        "actualHigh": 956,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.053773584905660345,
+          "loss": 0.053773584905660345
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06472984562607204,
+          "loss": 0.06472984562607204
+        }
+      },
+      {
+        "baseDate": "2026-09-15",
+        "targetDate": "2026-09-16",
+        "lower": 901.89,
+        "upper": 954.45,
+        "actualLow": 924.5,
+        "actualHigh": 938.59,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05662755745175998,
+          "loss": 0.05662755745175998
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06261783940441945,
+          "loss": 0.06261783940441945
+        }
+      },
+      {
+        "baseDate": "2026-09-16",
+        "targetDate": "2026-09-17",
+        "lower": 911.03,
+        "upper": 962.47,
+        "actualLow": 924,
+        "actualHigh": 964,
+        "model": {
+          "covered": false,
+          "closeCovered": true,
+          "width": 0.054913263944488984,
+          "loss": 0.08757939685081347
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06125433680277567,
+          "loss": 0.06125433680277567
+        }
+      },
+      {
+        "baseDate": "2026-09-17",
+        "targetDate": "2026-09-18",
+        "lower": 906.74,
+        "upper": 962.88,
+        "actualLow": 935.5,
+        "actualHigh": 948.9,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06005498443533979,
+          "loss": 0.06005498443533979
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06106053636567863,
+          "loss": 0.06106053636567863
+        }
+      },
+      {
+        "baseDate": "2026-09-18",
+        "targetDate": "2026-09-21",
+        "lower": 919.68,
+        "upper": 974.5,
+        "actualLow": 937.5,
+        "actualHigh": 947.69,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.057882566598739346,
+          "loss": 0.057882566598739346
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.061050164187141716,
+          "loss": 0.061050164187141716
+        }
+      },
+      {
+        "baseDate": "2026-09-21",
+        "targetDate": "2026-09-22",
+        "lower": 911.67,
+        "upper": 964.51,
+        "actualLow": 930,
+        "actualHigh": 951.5,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05632721807076083,
+          "loss": 0.05632721807076083
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06106023942265664,
+          "loss": 0.06106023942265664
+        }
+      },
+      {
+        "baseDate": "2026-09-22",
+        "targetDate": "2026-09-23",
+        "lower": 905.41,
+        "upper": 958.55,
+        "actualLow": 932,
+        "actualHigh": 940,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05701839095259553,
+          "loss": 0.05701839095259553
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.061052812292109244,
+          "loss": 0.061052812292109244
+        }
+      },
+      {
+        "baseDate": "2026-09-23",
+        "targetDate": "2026-09-24",
+        "lower": 908.56,
+        "upper": 959.44,
+        "actualLow": 924.1,
+        "actualHigh": 935.78,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.054475374732334166,
+          "loss": 0.054475374732334166
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.06027837259100637,
+          "loss": 0.06027837259100637
+        }
+      },
+      {
+        "baseDate": "2026-09-24",
+        "targetDate": "2026-09-28",
+        "lower": 901.28,
+        "upper": 950.74,
+        "actualLow": 899,
+        "actualHigh": 918,
+        "model": {
+          "covered": false,
+          "closeCovered": false,
+          "width": 0.05341195019492234,
+          "loss": 0.10265547888251692
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.059524195203075565,
+          "loss": 0.059524195203075565
+        }
+      },
+      {
+        "baseDate": "2026-09-28",
+        "targetDate": "2026-09-29",
+        "lower": 875.03,
+        "upper": 926.75,
+        "actualLow": 890,
+        "actualHigh": 903,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.057409894659725416,
+          "loss": 0.057409894659725416
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05951892017893417,
+          "loss": 0.05951892017893417
+        }
+      },
+      {
+        "baseDate": "2026-09-29",
+        "targetDate": "2026-09-30",
+        "lower": 872.27,
+        "upper": 922.79,
+        "actualLow": 897.5,
+        "actualHigh": 909,
+        "model": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.056287812106559094,
+          "loss": 0.056287812106559094
+        },
+        "baseline": {
+          "covered": true,
+          "closeCovered": true,
+          "width": 0.05951890187514619,
+          "loss": 0.05951890187514619
+        }
+      }
+    ]
+  }
+}
