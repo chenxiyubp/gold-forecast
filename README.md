@@ -8,7 +8,7 @@
 
 Android 8.0+ · 人民币/克 · 上金所 Au99.99 · v1.3.0
 
-[安装与部署](docs/DEPLOYMENT.md) · [预测方法](docs/SHORT_TERM_METHOD.md) · [验证记录](docs/VALIDATION.md) · [数据来源](docs/DATA_SOURCES.md)
+[下载安卓 APK](https://github.com/chenxiyubp/gold-forecast/releases/download/v1.3.0/GoldSense-1.3.0.apk) · [安装与部署](docs/DEPLOYMENT.md) · [预测方法](docs/SHORT_TERM_METHOD.md) · [验证记录](docs/VALIDATION.md) · [数据来源](docs/DATA_SOURCES.md)
 
 <img src="docs/images/dashboard.png" width="320" alt="金绪精密仪表首页：报价、价格标尺和历史覆盖率">
 
@@ -42,7 +42,7 @@ Android 8.0+ · 人民币/克 · 上金所 Au99.99 · v1.3.0
 
 ## 快速安装
 
-1. 如果仓库已提供 Release，打开仓库的 [Releases 页面](https://github.com/chenxiyubp/gold-forecast/releases)，下载 `GoldSense-1.3.0.apk`；否则按[源码构建指南](docs/DEPLOYMENT.md)生成 APK。
+1. 打开 [v1.3.0 下载页面](https://github.com/chenxiyubp/gold-forecast/releases/tag/v1.3.0)，下载 `GoldSense-1.3.0.apk`；也可以按[源码构建指南](docs/DEPLOYMENT.md)自行生成 APK。
 2. 将 APK 传到安卓手机，用文件管理器打开，按系统提示允许安装。
 3. 打开「金绪」并联网，等待行情、日线和资讯载入。
 4. 查看设置页的数据源状态。休市时显示最近有效交易数据。
